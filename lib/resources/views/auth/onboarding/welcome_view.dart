@@ -26,7 +26,7 @@ class _WelcomeViewState extends State<WelcomeView> {
     )..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized.
         setState(() {});
-        // _controller.setLooping(true);
+        _controller.setLooping(true);
         _controller.play();
       });
   }
