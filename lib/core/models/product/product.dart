@@ -6,8 +6,8 @@ class Product {
   final String name;
   final String imageUrl;
 
-  final int price;
-  final int reducedBy;
+  final double price;
+  final double reducedBy;
 
   final ProductStatus status;
   
