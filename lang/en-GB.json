@@ -1,0 +1,11 @@
+{
+    "app": {
+        "name": "Pingna"
+    },
+    "onboarding": {
+        "get_started": "Get started",
+        "welcome": "Welcome 😊 Let's see if we deliver to you",
+        "postcode": "Enter your postcode",
+        "check_now": "Check now"
+    }
+}
