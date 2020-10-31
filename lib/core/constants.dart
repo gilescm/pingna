@@ -28,6 +28,8 @@ const String colReducedBy = "reduced_by";
 const String colStatus = "status";
 
 // Timestamps
+const String colOpensAt = "opens_at";
+const String colClosesAt = "closes_at";
 const String colCreatedAt = "created_at"; 
 const String colUpdatedAt = "updated_at"; 
 const String colDeletedAt = "deleted_at"; 
