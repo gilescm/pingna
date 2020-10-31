@@ -103,6 +103,7 @@ flutter:
   assets:
     - lang/
   
+    - assets/content/
     - assets/images/
     - assets/videos/
 

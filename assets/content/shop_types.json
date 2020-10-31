@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Supermarkets"
+    },
+    {
+        "id": 2,
+        "name": "Beers, Wines & Spirits"
+    },
+    {
+        "id": 3,
+        "name": "Bakeries & Cafés"
+    },
+    {
+        "id": 4,
+        "name": "Tobacco, Vaping & E-Cigarettes"
+    },
+    {
+        "id": 5,
+        "name": "Health and Beauty"
+    },
+    {
+        "id": 6,
+        "name": "Fishmongers"
+    },
+    {
+        "id": 7,
+        "name": "DIY"
+    },
+    {
+        "id": 8,
+        "name": "Books"
+    },
+    {
+        "id": 9,
+        "name": "Pet Food"
+    }
+]

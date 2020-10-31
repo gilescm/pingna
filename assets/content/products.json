@@ -1,0 +1,5002 @@
+[
+    {
+        "id": 1,
+        "product_type_id": 28,
+        "name": "Salt - Sea",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.58,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-29"
+    },
+    {
+        "id": 2,
+        "product_type_id": 3,
+        "name": "Guava",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.01,
+        "reduced_by": 2.66,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 3,
+        "product_type_id": 20,
+        "name": "Water - Mineral, Natural",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.32,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-06"
+    },
+    {
+        "id": 4,
+        "product_type_id": 42,
+        "name": "Pasta - Lasagne, Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.43,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2020-11-06"
+    },
+    {
+        "id": 5,
+        "product_type_id": 45,
+        "name": "Petite Baguette",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.08,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-22"
+    },
+    {
+        "id": 6,
+        "product_type_id": 23,
+        "name": "Garbage Bags - Black",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.32,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-20"
+    },
+    {
+        "id": 7,
+        "product_type_id": 50,
+        "name": "Beef - Cow Feet Split",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.19,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 8,
+        "product_type_id": 46,
+        "name": "Broom Handle",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.00,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-06"
+    },
+    {
+        "id": 9,
+        "product_type_id": 22,
+        "name": "Pasta - Detalini, White, Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 10,
+        "product_type_id": 39,
+        "name": "Soup - Campbells, Lentil",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.69,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 11,
+        "product_type_id": 22,
+        "name": "Cactus Pads",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.24,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-04-27"
+    },
+    {
+        "id": 12,
+        "product_type_id": 25,
+        "name": "Spice - Pepper Portions",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.89,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 13,
+        "product_type_id": 11,
+        "name": "Garlic Powder",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.98,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-03"
+    },
+    {
+        "id": 14,
+        "product_type_id": 24,
+        "name": "Coke - Diet, 355 Ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.34,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 15,
+        "product_type_id": 28,
+        "name": "Pepper - Orange",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.48,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-02-26"
+    },
+    {
+        "id": 16,
+        "product_type_id": 25,
+        "name": "Venison - Denver Leg Boneless",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.29,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 17,
+        "product_type_id": 32,
+        "name": "Syrup - Golden, Lyles",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.49,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 18,
+        "product_type_id": 2,
+        "name": "Sauce Bbq Smokey",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.27,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 19,
+        "product_type_id": 7,
+        "name": "Chocolate Bar - Reese Pieces",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.38,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-05"
+    },
+    {
+        "id": 20,
+        "product_type_id": 14,
+        "name": "Dried Cranberries",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.57,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-31"
+    },
+    {
+        "id": 21,
+        "product_type_id": 36,
+        "name": "Coffee - Colombian, Portioned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-07"
+    },
+    {
+        "id": 22,
+        "product_type_id": 9,
+        "name": "Tomatoes - Vine Ripe, Red",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.21,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 23,
+        "product_type_id": 40,
+        "name": "Carbonated Water - Lemon Lime",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.41,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 24,
+        "product_type_id": 42,
+        "name": "Juice - Pineapple, 48 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.02,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 25,
+        "product_type_id": 33,
+        "name": "Salmon - Whole, 4 - 6 Pounds",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.34,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 26,
+        "product_type_id": 9,
+        "name": "Heavy Duty Dust Pan",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.15,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 27,
+        "product_type_id": 26,
+        "name": "Praline Paste",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.36,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 28,
+        "product_type_id": 14,
+        "name": "Ice Cream - Life Savers",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.97,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 29,
+        "product_type_id": 13,
+        "name": "Chicken - Leg, Boneless",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.12,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 30,
+        "product_type_id": 40,
+        "name": "Oil - Margarine",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.89,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-19"
+    },
+    {
+        "id": 31,
+        "product_type_id": 7,
+        "name": "Sauce - Gravy, Au Jus, Mix",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.55,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 32,
+        "product_type_id": 14,
+        "name": "Beans - Butter Lrg Lima",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.11,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 33,
+        "product_type_id": 26,
+        "name": "Lamb - Leg, Boneless",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-10"
+    },
+    {
+        "id": 34,
+        "product_type_id": 47,
+        "name": "Butter - Pod",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.11,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-09-01"
+    },
+    {
+        "id": 35,
+        "product_type_id": 10,
+        "name": "Oil - Margarine",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.04,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 36,
+        "product_type_id": 45,
+        "name": "Veal - Tenderloin, Untrimmed",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.65,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 37,
+        "product_type_id": 34,
+        "name": "Coconut - Whole",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-25"
+    },
+    {
+        "id": 38,
+        "product_type_id": 50,
+        "name": "Soup - Campbells - Chicken Noodle",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.05,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 39,
+        "product_type_id": 20,
+        "name": "Wine - Cotes Du Rhone",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.97,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-12"
+    },
+    {
+        "id": 40,
+        "product_type_id": 43,
+        "name": "Lamb Shoulder Boneless Nz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.54,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 41,
+        "product_type_id": 23,
+        "name": "Juice - Clamato, 341 Ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.34,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 42,
+        "product_type_id": 41,
+        "name": "Asparagus - Green, Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.11,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-23"
+    },
+    {
+        "id": 43,
+        "product_type_id": 33,
+        "name": "Pepper - Cubanelle",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.92,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-02"
+    },
+    {
+        "id": 44,
+        "product_type_id": 8,
+        "name": "Flower - Dish Garden",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.45,
+        "reduced_by": 8.30,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-22"
+    },
+    {
+        "id": 45,
+        "product_type_id": 11,
+        "name": "Tabasco Sauce, 2 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.01,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-10"
+    },
+    {
+        "id": 46,
+        "product_type_id": 33,
+        "name": "Veal - Heart",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.20,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 47,
+        "product_type_id": 28,
+        "name": "Bananas",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.59,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 48,
+        "product_type_id": 36,
+        "name": "Food Colouring - Green",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.06,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-12-11"
+    },
+    {
+        "id": 49,
+        "product_type_id": 8,
+        "name": "Sauce - Soya, Light",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.02,
+        "reduced_by": 0.76,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 50,
+        "product_type_id": 12,
+        "name": "Sauce - Plum",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.63,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 51,
+        "product_type_id": 34,
+        "name": "Squash - Acorn",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-19"
+    },
+    {
+        "id": 52,
+        "product_type_id": 41,
+        "name": "Langers - Mango Nectar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.99,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 53,
+        "product_type_id": 6,
+        "name": "Beef - Salted",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.25,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 54,
+        "product_type_id": 20,
+        "name": "Chocolate - Sugar Free Semi Choc",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-11"
+    },
+    {
+        "id": 55,
+        "product_type_id": 15,
+        "name": "Beer - Sleeman Fine Porter",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-03"
+    },
+    {
+        "id": 56,
+        "product_type_id": 23,
+        "name": "Aspic - Light",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.77,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-07-29"
+    },
+    {
+        "id": 57,
+        "product_type_id": 40,
+        "name": "Flour - Rye",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.37,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 58,
+        "product_type_id": 49,
+        "name": "Onions - Dried, Chopped",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.85,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 59,
+        "product_type_id": 7,
+        "name": "Beer - Upper Canada Lager",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.93,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-03"
+    },
+    {
+        "id": 60,
+        "product_type_id": 39,
+        "name": "Dome Lid Clear P92008h",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.53,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 61,
+        "product_type_id": 24,
+        "name": "Wine - Chenin Blanc K.w.v.",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 62,
+        "product_type_id": 12,
+        "name": "Chives - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.50,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 63,
+        "product_type_id": 45,
+        "name": "Crab - Dungeness, Whole",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.30,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-15"
+    },
+    {
+        "id": 64,
+        "product_type_id": 49,
+        "name": "Wonton Wrappers",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.39,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 65,
+        "product_type_id": 46,
+        "name": "The Pop Shoppe - Grape",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.17,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 66,
+        "product_type_id": 21,
+        "name": "Puree - Blackcurrant",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.56,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 67,
+        "product_type_id": 8,
+        "name": "Foam Cup 6 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.33,
+        "reduced_by": 2.40,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-08"
+    },
+    {
+        "id": 68,
+        "product_type_id": 45,
+        "name": "Cheese - Parmesan Cubes",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.92,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 69,
+        "product_type_id": 30,
+        "name": "Otomegusa Dashi Konbu",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.25,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-18"
+    },
+    {
+        "id": 70,
+        "product_type_id": 22,
+        "name": "Beef - Baby, Liver",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.19,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 71,
+        "product_type_id": 31,
+        "name": "Bay Leaf Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.66,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 72,
+        "product_type_id": 7,
+        "name": "Wine - Chateau Timberlay",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 73,
+        "product_type_id": 10,
+        "name": "Beef Dry Aged Tenderloin Aaa",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.46,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-05"
+    },
+    {
+        "id": 74,
+        "product_type_id": 28,
+        "name": "Beer - Camerons Auburn",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.24,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-14"
+    },
+    {
+        "id": 75,
+        "product_type_id": 33,
+        "name": "Flower - Daisies",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.03,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-22"
+    },
+    {
+        "id": 76,
+        "product_type_id": 6,
+        "name": "Garlic - Peeled",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.47,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-18"
+    },
+    {
+        "id": 77,
+        "product_type_id": 23,
+        "name": "Spice - Greek 1 Step",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.28,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 78,
+        "product_type_id": 15,
+        "name": "Paste - Black Olive",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.43,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 79,
+        "product_type_id": 8,
+        "name": "Cookies - Assorted",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.35,
+        "reduced_by": 4.26,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-09"
+    },
+    {
+        "id": 80,
+        "product_type_id": 18,
+        "name": "Sprouts Dikon",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-30"
+    },
+    {
+        "id": 81,
+        "product_type_id": 45,
+        "name": "Piping Jelly - All Colours",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.06,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-05-09"
+    },
+    {
+        "id": 82,
+        "product_type_id": 5,
+        "name": "Kippers - Smoked",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 83,
+        "product_type_id": 16,
+        "name": "Ice Cream Bar - Oreo Sandwich",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.84,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-11-03"
+    },
+    {
+        "id": 84,
+        "product_type_id": 41,
+        "name": "Foil Wrap",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 85,
+        "product_type_id": 9,
+        "name": "Pastry - Mini French Pastries",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.92,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 86,
+        "product_type_id": 40,
+        "name": "Pasta - Cappellini, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.00,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 87,
+        "product_type_id": 43,
+        "name": "Asparagus - Frozen",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.47,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-19"
+    },
+    {
+        "id": 88,
+        "product_type_id": 5,
+        "name": "Chips Potato Salt Vinegar 43g",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.71,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 89,
+        "product_type_id": 31,
+        "name": "Limes",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.58,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 90,
+        "product_type_id": 33,
+        "name": "Soup - Campbells Bean Medley",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.41,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 91,
+        "product_type_id": 5,
+        "name": "Beef - Montreal Smoked Brisket",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.53,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-29"
+    },
+    {
+        "id": 92,
+        "product_type_id": 31,
+        "name": "Juice - Cranberry 284ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.57,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-05"
+    },
+    {
+        "id": 93,
+        "product_type_id": 47,
+        "name": "Cup - Translucent 7 Oz Clear",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.33,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 94,
+        "product_type_id": 2,
+        "name": "Turnip - White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.30,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 95,
+        "product_type_id": 19,
+        "name": "Beef - Striploin",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.71,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-24"
+    },
+    {
+        "id": 96,
+        "product_type_id": 1,
+        "name": "Chicken Giblets",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.92,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-08-23"
+    },
+    {
+        "id": 97,
+        "product_type_id": 2,
+        "name": "Currants",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.58,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 98,
+        "product_type_id": 33,
+        "name": "Bag - Clear 7 Lb",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.53,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 99,
+        "product_type_id": 23,
+        "name": "Veal - Brisket, Provimi,bnls",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 100,
+        "product_type_id": 40,
+        "name": "Shrimp, Dried, Small / Lb",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.25,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-13"
+    },
+    {
+        "id": 101,
+        "product_type_id": 43,
+        "name": "Langers - Mango Nectar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.55,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-02"
+    },
+    {
+        "id": 102,
+        "product_type_id": 14,
+        "name": "Wine - Coteaux Du Tricastin Ac",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.24,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-30"
+    },
+    {
+        "id": 103,
+        "product_type_id": 24,
+        "name": "Quinoa",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.36,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-19"
+    },
+    {
+        "id": 104,
+        "product_type_id": 49,
+        "name": "Muffin Batt - Ban Dream Zero",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.79,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 105,
+        "product_type_id": 13,
+        "name": "Pepper - Chipotle, Canned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.47,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 106,
+        "product_type_id": 9,
+        "name": "Flour - All Purpose",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.79,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 107,
+        "product_type_id": 22,
+        "name": "Salmon - Sockeye Raw",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.55,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-05-30"
+    },
+    {
+        "id": 108,
+        "product_type_id": 23,
+        "name": "Milk - 2%",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.32,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 109,
+        "product_type_id": 21,
+        "name": "Sweet Pea Sprouts",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.86,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-19"
+    },
+    {
+        "id": 110,
+        "product_type_id": 22,
+        "name": "Champagne - Brights, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.96,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 111,
+        "product_type_id": 28,
+        "name": "Jicama",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.02,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 112,
+        "product_type_id": 16,
+        "name": "Wine - German Riesling",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.03,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 113,
+        "product_type_id": 37,
+        "name": "Wine - Sauvignon Blanc",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.44,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 114,
+        "product_type_id": 43,
+        "name": "Flower - Daisies",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 115,
+        "product_type_id": 1,
+        "name": "Icecream Cone - Areo Chocolate",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 116,
+        "product_type_id": 31,
+        "name": "Salt - Seasoned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.25,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 117,
+        "product_type_id": 45,
+        "name": "Tray - Foam, Square 4 - S",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.66,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-04-21"
+    },
+    {
+        "id": 118,
+        "product_type_id": 16,
+        "name": "Sausage - Liver",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.96,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 119,
+        "product_type_id": 18,
+        "name": "Lettuce - Iceberg",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.54,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 120,
+        "product_type_id": 8,
+        "name": "Pastry - Apple Muffins - Mini",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.97,
+        "reduced_by": 8.87,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-24"
+    },
+    {
+        "id": 121,
+        "product_type_id": 3,
+        "name": "Cheese - Mascarpone",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.79,
+        "reduced_by": 7.23,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 122,
+        "product_type_id": 33,
+        "name": "Cream - 18%",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.77,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 123,
+        "product_type_id": 18,
+        "name": "Mushroom - Morel Frozen",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.95,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-01"
+    },
+    {
+        "id": 124,
+        "product_type_id": 40,
+        "name": "Bagelers - Cinn / Brown Sugar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.85,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-16"
+    },
+    {
+        "id": 125,
+        "product_type_id": 48,
+        "name": "Bread Crumbs - Panko",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.52,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-06"
+    },
+    {
+        "id": 126,
+        "product_type_id": 46,
+        "name": "Chips Potato Salt Vinegar 43g",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.80,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 127,
+        "product_type_id": 13,
+        "name": "Gatorade - Orange",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.36,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-04"
+    },
+    {
+        "id": 128,
+        "product_type_id": 10,
+        "name": "Red Currants",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.01,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-13"
+    },
+    {
+        "id": 129,
+        "product_type_id": 9,
+        "name": "Cleaner - Comet",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.00,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-15"
+    },
+    {
+        "id": 130,
+        "product_type_id": 3,
+        "name": "Extract - Vanilla,artificial",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.43,
+        "reduced_by": 3.54,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 131,
+        "product_type_id": 20,
+        "name": "Bread - Kimel Stick Poly",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-28"
+    },
+    {
+        "id": 132,
+        "product_type_id": 14,
+        "name": "Wine - White, Pinot Grigio",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.30,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-05-21"
+    },
+    {
+        "id": 133,
+        "product_type_id": 40,
+        "name": "Glucose",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.10,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-06"
+    },
+    {
+        "id": 134,
+        "product_type_id": 36,
+        "name": "Mini - Vol Au Vents",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 135,
+        "product_type_id": 41,
+        "name": "Parsley Italian - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.15,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-25"
+    },
+    {
+        "id": 136,
+        "product_type_id": 15,
+        "name": "Vector Energy Bar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.55,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-25"
+    },
+    {
+        "id": 137,
+        "product_type_id": 40,
+        "name": "Celery",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.57,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-13"
+    },
+    {
+        "id": 138,
+        "product_type_id": 12,
+        "name": "Grouper - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.09,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-09-02"
+    },
+    {
+        "id": 139,
+        "product_type_id": 18,
+        "name": "Cornstarch",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.76,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-28"
+    },
+    {
+        "id": 140,
+        "product_type_id": 45,
+        "name": "Brandy Cherry - Mcguinness",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.26,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 141,
+        "product_type_id": 26,
+        "name": "Veal - Inside Round / Top, Lean",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 142,
+        "product_type_id": 30,
+        "name": "Pork - Hock And Feet Attached",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.56,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 143,
+        "product_type_id": 25,
+        "name": "Green Tea Refresher",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.30,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-10"
+    },
+    {
+        "id": 144,
+        "product_type_id": 4,
+        "name": "Bread Ww Cluster",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.38,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-27"
+    },
+    {
+        "id": 145,
+        "product_type_id": 18,
+        "name": "Bread - Rye",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.03,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-22"
+    },
+    {
+        "id": 146,
+        "product_type_id": 16,
+        "name": "Grapes - Green",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.16,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-03"
+    },
+    {
+        "id": 147,
+        "product_type_id": 14,
+        "name": "Olives - Nicoise",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.37,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-13"
+    },
+    {
+        "id": 148,
+        "product_type_id": 36,
+        "name": "Energy Drink Bawls",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.98,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 149,
+        "product_type_id": 46,
+        "name": "Cheese Cloth",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.57,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-06"
+    },
+    {
+        "id": 150,
+        "product_type_id": 18,
+        "name": "Nantucket Cranberry Juice",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.88,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 151,
+        "product_type_id": 19,
+        "name": "Prunes - Pitted",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.83,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 152,
+        "product_type_id": 17,
+        "name": "Cheese - Comtomme",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.89,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 153,
+        "product_type_id": 16,
+        "name": "Beef Dry Aged Tenderloin Aaa",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.46,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-15"
+    },
+    {
+        "id": 154,
+        "product_type_id": 35,
+        "name": "Beef Striploin Aaa",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.67,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-29"
+    },
+    {
+        "id": 155,
+        "product_type_id": 12,
+        "name": "Cape Capensis - Fillet",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-07"
+    },
+    {
+        "id": 156,
+        "product_type_id": 13,
+        "name": "Eggplant - Baby",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-01"
+    },
+    {
+        "id": 157,
+        "product_type_id": 42,
+        "name": "Oil - Hazelnut",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.51,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 158,
+        "product_type_id": 34,
+        "name": "Pastry - Plain Baked Croissant",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.96,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-03"
+    },
+    {
+        "id": 159,
+        "product_type_id": 8,
+        "name": "Pepper - Green Thai",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.54,
+        "reduced_by": 0.99,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-20"
+    },
+    {
+        "id": 160,
+        "product_type_id": 48,
+        "name": "Raspberries - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.30,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 161,
+        "product_type_id": 12,
+        "name": "Mushroom - Chanterelle, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.81,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 162,
+        "product_type_id": 20,
+        "name": "Bread - Raisin Walnut Pull",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.89,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-14"
+    },
+    {
+        "id": 163,
+        "product_type_id": 14,
+        "name": "Tendrils - Baby Pea, Organic",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.90,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 164,
+        "product_type_id": 7,
+        "name": "Squash - Acorn",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 165,
+        "product_type_id": 25,
+        "name": "Seabream Whole Farmed",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.87,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-03"
+    },
+    {
+        "id": 166,
+        "product_type_id": 31,
+        "name": "Flour - Strong Pizza",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.46,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-02"
+    },
+    {
+        "id": 167,
+        "product_type_id": 19,
+        "name": "Cookies - Englishbay Chochip",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.12,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 168,
+        "product_type_id": 17,
+        "name": "Pasta - Rotini, Colour, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.11,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 169,
+        "product_type_id": 34,
+        "name": "Lid - High Heat, Super Clear",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.29,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 170,
+        "product_type_id": 26,
+        "name": "Sobe - Liz Blizz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.59,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 171,
+        "product_type_id": 15,
+        "name": "Radish",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.36,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 172,
+        "product_type_id": 13,
+        "name": "Ginger - Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.78,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 173,
+        "product_type_id": 37,
+        "name": "Pears - Bosc",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.53,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 174,
+        "product_type_id": 48,
+        "name": "Pork - Smoked Back Bacon",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.22,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2020-12-14"
+    },
+    {
+        "id": 175,
+        "product_type_id": 12,
+        "name": "Dish Towel",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.15,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 176,
+        "product_type_id": 6,
+        "name": "Cut Wakame - Hanawakaba",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.10,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-04"
+    },
+    {
+        "id": 177,
+        "product_type_id": 16,
+        "name": "Beans - Kidney, Canned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.44,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-09-03"
+    },
+    {
+        "id": 178,
+        "product_type_id": 15,
+        "name": "Mikes Hard Lemonade",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.99,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 179,
+        "product_type_id": 5,
+        "name": "Wine - Vidal Icewine Magnotta",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.57,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 180,
+        "product_type_id": 44,
+        "name": "Muffin - Mix - Creme Brule 15l",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.36,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-03"
+    },
+    {
+        "id": 181,
+        "product_type_id": 24,
+        "name": "Lemonade - Pineapple Passion",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.30,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-09"
+    },
+    {
+        "id": 182,
+        "product_type_id": 44,
+        "name": "Stock - Veal, Brown",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.26,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 183,
+        "product_type_id": 5,
+        "name": "Cookies - Englishbay Oatmeal",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.04,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-25"
+    },
+    {
+        "id": 184,
+        "product_type_id": 12,
+        "name": "Wine - Vineland Estate Semi - Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 185,
+        "product_type_id": 21,
+        "name": "Ginger - Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-08"
+    },
+    {
+        "id": 186,
+        "product_type_id": 47,
+        "name": "French Pastries",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.16,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-22"
+    },
+    {
+        "id": 187,
+        "product_type_id": 49,
+        "name": "Thyme - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.03,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-25"
+    },
+    {
+        "id": 188,
+        "product_type_id": 4,
+        "name": "Lobster - Baby, Boiled",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.08,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 189,
+        "product_type_id": 5,
+        "name": "Spinach - Frozen",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 190,
+        "product_type_id": 28,
+        "name": "Table Cloth 90x90 Colour",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.40,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-02"
+    },
+    {
+        "id": 191,
+        "product_type_id": 40,
+        "name": "Veal - Heart",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.30,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 192,
+        "product_type_id": 41,
+        "name": "Truffle Cups - Red",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.72,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 193,
+        "product_type_id": 28,
+        "name": "Island Oasis - Sweet And Sour Mix",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.48,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-04"
+    },
+    {
+        "id": 194,
+        "product_type_id": 42,
+        "name": "Shark - Loin",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.03,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-14"
+    },
+    {
+        "id": 195,
+        "product_type_id": 22,
+        "name": "Puree - Blackcurrant",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.12,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 196,
+        "product_type_id": 50,
+        "name": "Mousse - Mango",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.53,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 197,
+        "product_type_id": 20,
+        "name": "Chicken - Bones",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.67,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 198,
+        "product_type_id": 8,
+        "name": "Plate Pie Foil",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.89,
+        "reduced_by": 4.99,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 199,
+        "product_type_id": 10,
+        "name": "Lamb - Whole Head Off,nz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-22"
+    },
+    {
+        "id": 200,
+        "product_type_id": 36,
+        "name": "Wine - Red, Metus Rose",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.44,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-28"
+    },
+    {
+        "id": 201,
+        "product_type_id": 18,
+        "name": "Sausage - Breakfast",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.21,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-28"
+    },
+    {
+        "id": 202,
+        "product_type_id": 20,
+        "name": "Pate - Peppercorn",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.77,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 203,
+        "product_type_id": 39,
+        "name": "Beef - Tenderloin Tails",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.88,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-07"
+    },
+    {
+        "id": 204,
+        "product_type_id": 7,
+        "name": "Greens Mustard",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.75,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-09-08"
+    },
+    {
+        "id": 205,
+        "product_type_id": 42,
+        "name": "Bar Energy Chocchip",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.24,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-07"
+    },
+    {
+        "id": 206,
+        "product_type_id": 42,
+        "name": "Lime Cordial - Roses",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.00,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 207,
+        "product_type_id": 9,
+        "name": "Glove - Cutting",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.59,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 208,
+        "product_type_id": 27,
+        "name": "Chicken - Breast, 5 - 7 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.21,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 209,
+        "product_type_id": 5,
+        "name": "Mushroom - Porcini Frozen",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.24,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 210,
+        "product_type_id": 8,
+        "name": "Boogies",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.09,
+        "reduced_by": 8.80,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 211,
+        "product_type_id": 7,
+        "name": "Beer - Creemore",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.18,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-23"
+    },
+    {
+        "id": 212,
+        "product_type_id": 10,
+        "name": "Chocolate - Pistoles, White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.82,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-25"
+    },
+    {
+        "id": 213,
+        "product_type_id": 45,
+        "name": "Chevril",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.16,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 214,
+        "product_type_id": 48,
+        "name": "French Pastry - Mini Chocolate",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.76,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 215,
+        "product_type_id": 42,
+        "name": "English Muffin",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.44,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 216,
+        "product_type_id": 20,
+        "name": "Blue Curacao - Marie Brizard",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.14,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 217,
+        "product_type_id": 22,
+        "name": "Mix - Cocktail Strawberry Daiquiri",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.09,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 218,
+        "product_type_id": 29,
+        "name": "Everfresh Products",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.51,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 219,
+        "product_type_id": 33,
+        "name": "Food Colouring - Orange",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.03,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-06"
+    },
+    {
+        "id": 220,
+        "product_type_id": 25,
+        "name": "Dried Figs",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.59,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 221,
+        "product_type_id": 28,
+        "name": "Cheese - Ermite Bleu",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.07,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-28"
+    },
+    {
+        "id": 222,
+        "product_type_id": 15,
+        "name": "Beef - Eye Of Round",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.08,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-20"
+    },
+    {
+        "id": 223,
+        "product_type_id": 38,
+        "name": "Dried Cranberries",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.73,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 224,
+        "product_type_id": 45,
+        "name": "Skewers - Bamboo",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.71,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 225,
+        "product_type_id": 42,
+        "name": "Amaretto",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.71,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-30"
+    },
+    {
+        "id": 226,
+        "product_type_id": 4,
+        "name": "Lemonade - Mandarin, 591 Ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.34,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-18"
+    },
+    {
+        "id": 227,
+        "product_type_id": 29,
+        "name": "Pepper - Cayenne",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.77,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 228,
+        "product_type_id": 43,
+        "name": "Vinegar - Sherry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.24,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-26"
+    },
+    {
+        "id": 229,
+        "product_type_id": 50,
+        "name": "Yogurt - Strawberry, 175 Gr",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.08,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 230,
+        "product_type_id": 6,
+        "name": "Pork - Chop, Frenched",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.79,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 231,
+        "product_type_id": 39,
+        "name": "Syrup - Monin, Swiss Choclate",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.86,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-03"
+    },
+    {
+        "id": 232,
+        "product_type_id": 2,
+        "name": "Hummus - Spread",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.89,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2020-11-17"
+    },
+    {
+        "id": 233,
+        "product_type_id": 25,
+        "name": "Cotton Wet Mop 16 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.42,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 234,
+        "product_type_id": 45,
+        "name": "Cardamon Seed / Pod",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.23,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-11"
+    },
+    {
+        "id": 235,
+        "product_type_id": 11,
+        "name": "Veal - Bones",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.21,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 236,
+        "product_type_id": 39,
+        "name": "Salt And Pepper Mix - White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.47,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 237,
+        "product_type_id": 42,
+        "name": "Bols Melon Liqueur",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.31,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-05-10"
+    },
+    {
+        "id": 238,
+        "product_type_id": 31,
+        "name": "Apron",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.43,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-01"
+    },
+    {
+        "id": 239,
+        "product_type_id": 24,
+        "name": "Peppercorns - Pink",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.02,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 240,
+        "product_type_id": 28,
+        "name": "Beef - Ox Tail, Frozen",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.70,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-06-04"
+    },
+    {
+        "id": 241,
+        "product_type_id": 49,
+        "name": "Cheese - Havarti, Roasted Garlic",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.30,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 242,
+        "product_type_id": 30,
+        "name": "Bandage - Finger Cots",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.49,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 243,
+        "product_type_id": 21,
+        "name": "Kirsch - Schloss",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.57,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 244,
+        "product_type_id": 46,
+        "name": "Mushroom - Lg - Cello",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.15,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-08"
+    },
+    {
+        "id": 245,
+        "product_type_id": 40,
+        "name": "Olives - Black, Pitted",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.42,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 246,
+        "product_type_id": 19,
+        "name": "Amaretto",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.45,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-06-17"
+    },
+    {
+        "id": 247,
+        "product_type_id": 20,
+        "name": "Sauce - Demi Glace",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.35,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-03"
+    },
+    {
+        "id": 248,
+        "product_type_id": 17,
+        "name": "Sandwich Wrap",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.99,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 249,
+        "product_type_id": 10,
+        "name": "Chocolate Bar - Coffee Crisp",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.86,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 250,
+        "product_type_id": 15,
+        "name": "Cheese - St. Andre",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.67,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-08-29"
+    },
+    {
+        "id": 251,
+        "product_type_id": 10,
+        "name": "Tart Shells - Savory, 2",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.41,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-07-30"
+    },
+    {
+        "id": 252,
+        "product_type_id": 38,
+        "name": "Squash - Guords",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.09,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-06-14"
+    },
+    {
+        "id": 253,
+        "product_type_id": 8,
+        "name": "Table Cloth 54x72 Colour",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.47,
+        "reduced_by": 5.48,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 254,
+        "product_type_id": 43,
+        "name": "Beer - Moosehead",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.14,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-03-29"
+    },
+    {
+        "id": 255,
+        "product_type_id": 23,
+        "name": "Plate Pie Foil",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-31"
+    },
+    {
+        "id": 256,
+        "product_type_id": 44,
+        "name": "Mustard - Individual Pkg",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.30,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 257,
+        "product_type_id": 47,
+        "name": "Pecan Raisin - Tarts",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.96,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 258,
+        "product_type_id": 49,
+        "name": "Table Cloth 90x90 White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.34,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 259,
+        "product_type_id": 16,
+        "name": "Pasta - Spaghetti, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.28,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-05"
+    },
+    {
+        "id": 260,
+        "product_type_id": 12,
+        "name": "Island Oasis - Lemonade",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.35,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-20"
+    },
+    {
+        "id": 261,
+        "product_type_id": 21,
+        "name": "Chicken - Whole",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.39,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-07"
+    },
+    {
+        "id": 262,
+        "product_type_id": 47,
+        "name": "Tart Shells - Savory, 3",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.81,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-11"
+    },
+    {
+        "id": 263,
+        "product_type_id": 16,
+        "name": "Wine - Magnotta - Pinot Gris Sr",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.72,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 264,
+        "product_type_id": 39,
+        "name": "Sobe - Cranberry Grapefruit",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.17,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-10"
+    },
+    {
+        "id": 265,
+        "product_type_id": 3,
+        "name": "Salt - Kosher",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.15,
+        "reduced_by": 7.43,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-23"
+    },
+    {
+        "id": 266,
+        "product_type_id": 34,
+        "name": "Truffle - Peelings",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.44,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 267,
+        "product_type_id": 25,
+        "name": "Ketchup - Tomato",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.33,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-06"
+    },
+    {
+        "id": 268,
+        "product_type_id": 16,
+        "name": "Worcestershire Sauce",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.32,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 269,
+        "product_type_id": 12,
+        "name": "Veal Inside - Provimi",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.31,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-12"
+    },
+    {
+        "id": 270,
+        "product_type_id": 39,
+        "name": "Sprouts - China Rose",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.13,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-05-03"
+    },
+    {
+        "id": 271,
+        "product_type_id": 29,
+        "name": "Wine - Lou Black Shiraz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.77,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 272,
+        "product_type_id": 47,
+        "name": "Wine - Red Oakridge Merlot",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.81,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-23"
+    },
+    {
+        "id": 273,
+        "product_type_id": 49,
+        "name": "Pork - Bones",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.82,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 274,
+        "product_type_id": 50,
+        "name": "Bagel - Whole White Sesame",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.88,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 275,
+        "product_type_id": 27,
+        "name": "Pasta - Bauletti, Chicken White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-15"
+    },
+    {
+        "id": 276,
+        "product_type_id": 22,
+        "name": "Cheese - Gouda Smoked",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.71,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-24"
+    },
+    {
+        "id": 277,
+        "product_type_id": 14,
+        "name": "Beef Striploin Aaa",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.78,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 278,
+        "product_type_id": 21,
+        "name": "Pants Custom Dry Clean",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.83,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-27"
+    },
+    {
+        "id": 279,
+        "product_type_id": 27,
+        "name": "Chickensplit Half",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.82,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 280,
+        "product_type_id": 2,
+        "name": "Yogurt - Plain",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 281,
+        "product_type_id": 3,
+        "name": "Hot Chocolate - Individual",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.01,
+        "reduced_by": 2.00,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 282,
+        "product_type_id": 14,
+        "name": "Oil - Olive, Extra Virgin",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.63,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 283,
+        "product_type_id": 5,
+        "name": "Scallops - In Shell",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.71,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 284,
+        "product_type_id": 44,
+        "name": "Bread - Pain Au Liat X12",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-11"
+    },
+    {
+        "id": 285,
+        "product_type_id": 33,
+        "name": "Halibut - Whole, Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.57,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 286,
+        "product_type_id": 38,
+        "name": "Cinnamon - Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.50,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 287,
+        "product_type_id": 30,
+        "name": "Clams - Bay",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.51,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-18"
+    },
+    {
+        "id": 288,
+        "product_type_id": 23,
+        "name": "Bread - Corn Muffaleta Onion",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.76,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 289,
+        "product_type_id": 26,
+        "name": "Sprouts - Pea",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.74,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 290,
+        "product_type_id": 12,
+        "name": "Bread Bowl Plain",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.25,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 291,
+        "product_type_id": 16,
+        "name": "Chocolate - Dark Callets",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.52,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 292,
+        "product_type_id": 16,
+        "name": "Nut - Pecan, Pieces",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.09,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 293,
+        "product_type_id": 23,
+        "name": "Onions - Cippolini",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.48,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 294,
+        "product_type_id": 14,
+        "name": "Spice - Pepper Portions",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 295,
+        "product_type_id": 42,
+        "name": "Quail - Eggs, Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.85,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 296,
+        "product_type_id": 8,
+        "name": "Grapefruit - White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.25,
+        "reduced_by": 4.51,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-28"
+    },
+    {
+        "id": 297,
+        "product_type_id": 49,
+        "name": "Brandy Cherry - Mcguinness",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.58,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 298,
+        "product_type_id": 8,
+        "name": "Soda Water - Club Soda, 355 Ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.60,
+        "reduced_by": 5.60,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-02"
+    },
+    {
+        "id": 299,
+        "product_type_id": 31,
+        "name": "Milk - Chocolate 500ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.45,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 300,
+        "product_type_id": 33,
+        "name": "Sauce - Soy Low Sodium - 3.87l",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.46,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-12"
+    },
+    {
+        "id": 301,
+        "product_type_id": 25,
+        "name": "Otomegusa Dashi Konbu",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.82,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 302,
+        "product_type_id": 2,
+        "name": "Wine - Conde De Valdemar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.80,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-21"
+    },
+    {
+        "id": 303,
+        "product_type_id": 43,
+        "name": "Island Oasis - Sweet And Sour Mix",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.27,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-18"
+    },
+    {
+        "id": 304,
+        "product_type_id": 50,
+        "name": "Soup - French Onion",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.87,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-09"
+    },
+    {
+        "id": 305,
+        "product_type_id": 29,
+        "name": "Basil - Dry, Rubbed",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.28,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 306,
+        "product_type_id": 49,
+        "name": "Table Cloth 54x54 Colour",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.41,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 307,
+        "product_type_id": 36,
+        "name": "Anchovy Fillets",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.41,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 308,
+        "product_type_id": 39,
+        "name": "Pork - Sausage Casing",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-05"
+    },
+    {
+        "id": 309,
+        "product_type_id": 25,
+        "name": "Chicken - Base, Ultimate",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.63,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-02-20"
+    },
+    {
+        "id": 310,
+        "product_type_id": 46,
+        "name": "Rum - Mount Gay Eclipes",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.04,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-08-08"
+    },
+    {
+        "id": 311,
+        "product_type_id": 8,
+        "name": "Pasta - Fusili Tri - Coloured",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.28,
+        "reduced_by": 1.77,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-04-28"
+    },
+    {
+        "id": 312,
+        "product_type_id": 1,
+        "name": "Bread - Focaccia Quarter",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.10,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-14"
+    },
+    {
+        "id": 313,
+        "product_type_id": 42,
+        "name": "Milk 2% 500 Ml",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.46,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 314,
+        "product_type_id": 43,
+        "name": "Pop Shoppe Cream Soda",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.19,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-31"
+    },
+    {
+        "id": 315,
+        "product_type_id": 31,
+        "name": "Garam Marsala",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.07,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 316,
+        "product_type_id": 3,
+        "name": "Bacardi Limon",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.52,
+        "reduced_by": 9.42,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 317,
+        "product_type_id": 31,
+        "name": "Bread - Triangle White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.84,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-31"
+    },
+    {
+        "id": 318,
+        "product_type_id": 14,
+        "name": "Nut - Pecan, Pieces",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.00,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 319,
+        "product_type_id": 24,
+        "name": "Containter - 3oz Microwave Rect.",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.51,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 320,
+        "product_type_id": 18,
+        "name": "Barley - Pearl",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 321,
+        "product_type_id": 10,
+        "name": "Extract - Lemon",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.79,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-18"
+    },
+    {
+        "id": 322,
+        "product_type_id": 26,
+        "name": "Edible Flower - Mixed",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.67,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-12-11"
+    },
+    {
+        "id": 323,
+        "product_type_id": 20,
+        "name": "Bread - Raisin",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.46,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 324,
+        "product_type_id": 33,
+        "name": "Cheese - Valancey",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.07,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 325,
+        "product_type_id": 11,
+        "name": "Cookies - Englishbay Wht",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.31,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-02"
+    },
+    {
+        "id": 326,
+        "product_type_id": 39,
+        "name": "Spring Roll Veg Mini",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.95,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 327,
+        "product_type_id": 12,
+        "name": "Pasta - Penne Primavera, Single",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.19,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 328,
+        "product_type_id": 28,
+        "name": "Smoked Tongue",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.37,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 329,
+        "product_type_id": 42,
+        "name": "Star Fruit",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.82,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-04"
+    },
+    {
+        "id": 330,
+        "product_type_id": 8,
+        "name": "Puree - Kiwi",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.63,
+        "reduced_by": 2.43,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 331,
+        "product_type_id": 1,
+        "name": "Mop Head - Cotton, 24 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.92,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-23"
+    },
+    {
+        "id": 332,
+        "product_type_id": 23,
+        "name": "Chicken - Livers",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.38,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-11"
+    },
+    {
+        "id": 333,
+        "product_type_id": 31,
+        "name": "Pasta - Penne, Lisce, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 334,
+        "product_type_id": 20,
+        "name": "Lamb - Whole, Frozen",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.49,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-16"
+    },
+    {
+        "id": 335,
+        "product_type_id": 22,
+        "name": "Cups 10oz Trans",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.63,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 336,
+        "product_type_id": 21,
+        "name": "Tofu - Soft",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-24"
+    },
+    {
+        "id": 337,
+        "product_type_id": 19,
+        "name": "Soup - Clam Chowder, Dry Mix",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.88,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-04"
+    },
+    {
+        "id": 338,
+        "product_type_id": 1,
+        "name": "Brandy - Bar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.87,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-20"
+    },
+    {
+        "id": 339,
+        "product_type_id": 21,
+        "name": "Bacardi Breezer - Tropical",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.61,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-15"
+    },
+    {
+        "id": 340,
+        "product_type_id": 49,
+        "name": "Swiss Chard - Red",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.21,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-14"
+    },
+    {
+        "id": 341,
+        "product_type_id": 26,
+        "name": "Wine - Redchard Merritt",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.40,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-22"
+    },
+    {
+        "id": 342,
+        "product_type_id": 16,
+        "name": "Mace Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.88,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-02"
+    },
+    {
+        "id": 343,
+        "product_type_id": 26,
+        "name": "Wine - Alsace Riesling Reserve",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.14,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 344,
+        "product_type_id": 26,
+        "name": "Cheese - Blue",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.58,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-11-04"
+    },
+    {
+        "id": 345,
+        "product_type_id": 26,
+        "name": "Cheese - Gouda Smoked",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.32,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-10"
+    },
+    {
+        "id": 346,
+        "product_type_id": 24,
+        "name": "Grenadillo",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-28"
+    },
+    {
+        "id": 347,
+        "product_type_id": 6,
+        "name": "Soup - Chicken And Wild Rice",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.26,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-13"
+    },
+    {
+        "id": 348,
+        "product_type_id": 2,
+        "name": "Kellogs Cereal In A Cup",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.47,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 349,
+        "product_type_id": 8,
+        "name": "Scallop - St. Jaques",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.05,
+        "reduced_by": 6.81,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 350,
+        "product_type_id": 47,
+        "name": "Cheese - Provolone",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.56,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-10"
+    },
+    {
+        "id": 351,
+        "product_type_id": 10,
+        "name": "Coffee - Colombian, Portioned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.71,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 352,
+        "product_type_id": 8,
+        "name": "Sauce - Chili",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.29,
+        "reduced_by": 5.16,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 353,
+        "product_type_id": 48,
+        "name": "Beef - Rouladin, Sliced",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.55,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2020-11-10"
+    },
+    {
+        "id": 354,
+        "product_type_id": 28,
+        "name": "Lettuce - Boston Bib - Organic",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.81,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-17"
+    },
+    {
+        "id": 355,
+        "product_type_id": 27,
+        "name": "Salt - Kosher",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.21,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-14"
+    },
+    {
+        "id": 356,
+        "product_type_id": 45,
+        "name": "Nut - Pumpkin Seeds",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 357,
+        "product_type_id": 25,
+        "name": "Pepper - Chillies, Crushed",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.97,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-21"
+    },
+    {
+        "id": 358,
+        "product_type_id": 12,
+        "name": "Squid - Breaded",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.19,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 359,
+        "product_type_id": 39,
+        "name": "Sugar - Sweet N Low, Individual",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.91,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 360,
+        "product_type_id": 7,
+        "name": "Ice Cream - Chocolate",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.39,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 361,
+        "product_type_id": 22,
+        "name": "Pepper - White, Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.20,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-18"
+    },
+    {
+        "id": 362,
+        "product_type_id": 36,
+        "name": "Tofu - Soft",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-13"
+    },
+    {
+        "id": 363,
+        "product_type_id": 28,
+        "name": "Ecolab - Medallion",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.93,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 364,
+        "product_type_id": 45,
+        "name": "Squid U5 - Thailand",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.31,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-03-25"
+    },
+    {
+        "id": 365,
+        "product_type_id": 39,
+        "name": "Wine - Vidal Icewine Magnotta",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.10,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-10"
+    },
+    {
+        "id": 366,
+        "product_type_id": 13,
+        "name": "Cheese - Roquefort Pappillon",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.11,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-03-15"
+    },
+    {
+        "id": 367,
+        "product_type_id": 31,
+        "name": "Goldschalger",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.01,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-11"
+    },
+    {
+        "id": 368,
+        "product_type_id": 27,
+        "name": "Cut Wakame - Hanawakaba",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.95,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 369,
+        "product_type_id": 7,
+        "name": "Bread - White Mini Epi",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.42,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 370,
+        "product_type_id": 39,
+        "name": "Sausage - Breakfast",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-29"
+    },
+    {
+        "id": 371,
+        "product_type_id": 19,
+        "name": "Puree - Mango",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.85,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-06"
+    },
+    {
+        "id": 372,
+        "product_type_id": 14,
+        "name": "Ice Cream - Turtles Stick Bar",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.84,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 373,
+        "product_type_id": 30,
+        "name": "Chicken Breast Wing On",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-28"
+    },
+    {
+        "id": 374,
+        "product_type_id": 36,
+        "name": "Wine - Red, Gamay Noir",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.79,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 375,
+        "product_type_id": 11,
+        "name": "Buffalo - Striploin",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.18,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-16"
+    },
+    {
+        "id": 376,
+        "product_type_id": 27,
+        "name": "Salmon - Whole, 4 - 6 Pounds",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.37,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 377,
+        "product_type_id": 10,
+        "name": "Wine - Pinot Noir Stoneleigh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.69,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-24"
+    },
+    {
+        "id": 378,
+        "product_type_id": 25,
+        "name": "Kellogs Special K Cereal",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.55,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-11"
+    },
+    {
+        "id": 379,
+        "product_type_id": 22,
+        "name": "Syrup - Monin - Blue Curacao",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.14,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-06-28"
+    },
+    {
+        "id": 380,
+        "product_type_id": 37,
+        "name": "Nut - Almond, Blanched, Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.55,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-07-08"
+    },
+    {
+        "id": 381,
+        "product_type_id": 48,
+        "name": "Beans - Black Bean, Preserved",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.15,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-03"
+    },
+    {
+        "id": 382,
+        "product_type_id": 17,
+        "name": "Pasta - Penne, Rigate, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.20,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-02"
+    },
+    {
+        "id": 383,
+        "product_type_id": 21,
+        "name": "Lid - High Heat, Super Clear",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.90,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-03"
+    },
+    {
+        "id": 384,
+        "product_type_id": 23,
+        "name": "Wooden Mop Handle",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.60,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-27"
+    },
+    {
+        "id": 385,
+        "product_type_id": 39,
+        "name": "Brownies - Two Bite, Chocolate",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.53,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 386,
+        "product_type_id": 50,
+        "name": "Arctic Char - Fresh, Whole",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.36,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-18"
+    },
+    {
+        "id": 387,
+        "product_type_id": 8,
+        "name": "Salt And Pepper Mix - Black",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.02,
+        "reduced_by": 1.80,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-11-08"
+    },
+    {
+        "id": 388,
+        "product_type_id": 35,
+        "name": "Sprouts - China Rose",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.40,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-25"
+    },
+    {
+        "id": 389,
+        "product_type_id": 13,
+        "name": "Mushroom - Chanterelle, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.96,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-11"
+    },
+    {
+        "id": 390,
+        "product_type_id": 28,
+        "name": "Steampan - Foil",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.72,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-04"
+    },
+    {
+        "id": 391,
+        "product_type_id": 6,
+        "name": "Paper - Brown Paper Mini Cups",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.68,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 392,
+        "product_type_id": 3,
+        "name": "Flower - Leather Leaf Fern",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.23,
+        "reduced_by": 5.14,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-29"
+    },
+    {
+        "id": 393,
+        "product_type_id": 2,
+        "name": "Potatoes - Parissienne",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.95,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 394,
+        "product_type_id": 49,
+        "name": "Cabbage - Savoy",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.51,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-28"
+    },
+    {
+        "id": 395,
+        "product_type_id": 45,
+        "name": "Magnotta - Bel Paese White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.10,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 396,
+        "product_type_id": 5,
+        "name": "Beef - Ox Tongue",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.19,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-22"
+    },
+    {
+        "id": 397,
+        "product_type_id": 1,
+        "name": "Shrimp, Dried, Small / Lb",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.42,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 398,
+        "product_type_id": 30,
+        "name": "Doilies - 5, Paper",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.99,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-27"
+    },
+    {
+        "id": 399,
+        "product_type_id": 16,
+        "name": "Chinese Lemon Pork",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.02,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 400,
+        "product_type_id": 7,
+        "name": "Hummus - Spread",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.39,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 401,
+        "product_type_id": 38,
+        "name": "Pear - Asian",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.69,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-12-13"
+    },
+    {
+        "id": 402,
+        "product_type_id": 36,
+        "name": "Wine - Prem Select Charddonany",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 27.26,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-02"
+    },
+    {
+        "id": 403,
+        "product_type_id": 5,
+        "name": "Pork - Back, Long Cut, Boneless",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.53,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-04-24"
+    },
+    {
+        "id": 404,
+        "product_type_id": 24,
+        "name": "Rice - Jasmine Sented",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 22.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 405,
+        "product_type_id": 8,
+        "name": "Wine - Chianti Classica Docg",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.06,
+        "reduced_by": 3.15,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 406,
+        "product_type_id": 30,
+        "name": "Foil - 4oz Custard Cup",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.47,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-15"
+    },
+    {
+        "id": 407,
+        "product_type_id": 1,
+        "name": "Mayonnaise - Individual Pkg",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.85,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-03"
+    },
+    {
+        "id": 408,
+        "product_type_id": 17,
+        "name": "Puree - Guava",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.64,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2020-11-10"
+    },
+    {
+        "id": 409,
+        "product_type_id": 23,
+        "name": "Plasticforkblack",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-10"
+    },
+    {
+        "id": 410,
+        "product_type_id": 36,
+        "name": "Rum - Light, Captain Morgan",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.54,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 411,
+        "product_type_id": 50,
+        "name": "Cheese - Romano, Grated",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.56,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-14"
+    },
+    {
+        "id": 412,
+        "product_type_id": 32,
+        "name": "Aspic - Amber",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-04"
+    },
+    {
+        "id": 413,
+        "product_type_id": 36,
+        "name": "Placemat - Scallop, White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.16,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-09"
+    },
+    {
+        "id": 414,
+        "product_type_id": 19,
+        "name": "Cheese - Valancey",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 26.21,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 415,
+        "product_type_id": 50,
+        "name": "Ginsing - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.28,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-05"
+    },
+    {
+        "id": 416,
+        "product_type_id": 8,
+        "name": "Wine - Masi Valpolocell",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.28,
+        "reduced_by": 8.42,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 417,
+        "product_type_id": 46,
+        "name": "Wine - Taylors Reserve",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.67,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 418,
+        "product_type_id": 17,
+        "name": "Jolt Cola - Electric Blue",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.18,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-19"
+    },
+    {
+        "id": 419,
+        "product_type_id": 9,
+        "name": "Juice - Tomato, 10 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.80,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 420,
+        "product_type_id": 45,
+        "name": "Ketchup - Tomato",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.97,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 421,
+        "product_type_id": 37,
+        "name": "Appetizer - Smoked Salmon / Dill",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 422,
+        "product_type_id": 38,
+        "name": "Nut - Almond, Blanched, Ground",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.11,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-31"
+    },
+    {
+        "id": 423,
+        "product_type_id": 47,
+        "name": "Red Snapper - Fillet, Skin On",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 35.14,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 424,
+        "product_type_id": 33,
+        "name": "Nut - Pumpkin Seeds",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 9.74,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 425,
+        "product_type_id": 34,
+        "name": "Squash - Butternut",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.89,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 426,
+        "product_type_id": 12,
+        "name": "Pasta - Rotini, Colour, Dry",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.38,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 427,
+        "product_type_id": 32,
+        "name": "Bread - Bistro White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.37,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 428,
+        "product_type_id": 25,
+        "name": "Wine - White, Gewurtzraminer",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.23,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-19"
+    },
+    {
+        "id": 429,
+        "product_type_id": 9,
+        "name": "Creme De Cacao Mcguines",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 430,
+        "product_type_id": 19,
+        "name": "Puree - Pear",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 33.83,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 431,
+        "product_type_id": 25,
+        "name": "Wine - White, Concha Y Toro",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.13,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 432,
+        "product_type_id": 40,
+        "name": "Table Cloth 54x54 White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.34,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-17"
+    },
+    {
+        "id": 433,
+        "product_type_id": 42,
+        "name": "Pork Ham Prager",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 20.40,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 434,
+        "product_type_id": 41,
+        "name": "Cheese - Le Cru Du Clocher",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.37,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-06-04"
+    },
+    {
+        "id": 435,
+        "product_type_id": 39,
+        "name": "Juice - Grape, White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.23,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 436,
+        "product_type_id": 23,
+        "name": "Muffin - Mix - Creme Brule 15l",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-08-01"
+    },
+    {
+        "id": 437,
+        "product_type_id": 36,
+        "name": "Venison - Denver Leg Boneless",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 39.74,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 438,
+        "product_type_id": 45,
+        "name": "Cauliflower",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.16,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 439,
+        "product_type_id": 49,
+        "name": "Momiji Oroshi Chili Sauce",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.98,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 440,
+        "product_type_id": 47,
+        "name": "Chocolate - Semi Sweet",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.65,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-31"
+    },
+    {
+        "id": 441,
+        "product_type_id": 9,
+        "name": "Lettuce - Lolla Rosa",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.50,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 442,
+        "product_type_id": 4,
+        "name": "Basil - Fresh",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.94,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 443,
+        "product_type_id": 19,
+        "name": "Wine - White, Pinot Grigio",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.39,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-21"
+    },
+    {
+        "id": 444,
+        "product_type_id": 33,
+        "name": "Greens Mustard",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.73,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-12"
+    },
+    {
+        "id": 445,
+        "product_type_id": 11,
+        "name": "Sprouts - Brussel",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 8.07,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-29"
+    },
+    {
+        "id": 446,
+        "product_type_id": 13,
+        "name": "Tarragon - Primerba, Paste",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 24.21,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 447,
+        "product_type_id": 2,
+        "name": "Alize Gold Passion",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.12,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-06-02"
+    },
+    {
+        "id": 448,
+        "product_type_id": 43,
+        "name": "Papayas",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.88,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 449,
+        "product_type_id": 13,
+        "name": "Wasabi Paste",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.62,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-08"
+    },
+    {
+        "id": 450,
+        "product_type_id": 24,
+        "name": "Salad Dressing",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 5.90,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-03-27"
+    },
+    {
+        "id": 451,
+        "product_type_id": 19,
+        "name": "Pastry - French Mini Assorted",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.91,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 452,
+        "product_type_id": 30,
+        "name": "Spic And Span All Purpose",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-03"
+    },
+    {
+        "id": 453,
+        "product_type_id": 28,
+        "name": "Juice - Tomato, 10 Oz",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.10,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 454,
+        "product_type_id": 45,
+        "name": "Crackers - Melba Toast",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.26,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 455,
+        "product_type_id": 15,
+        "name": "Chick Peas - Canned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.98,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 456,
+        "product_type_id": 30,
+        "name": "Soap - Hand Soap",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.95,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-07"
+    },
+    {
+        "id": 457,
+        "product_type_id": 28,
+        "name": "Country Roll",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 18.38,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 458,
+        "product_type_id": 3,
+        "name": "Longos - Lasagna Veg",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 32.00,
+        "reduced_by": 7.94,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": "2021-01-15"
+    },
+    {
+        "id": 459,
+        "product_type_id": 16,
+        "name": "Wine - White, Mosel Gold",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-09"
+    },
+    {
+        "id": 460,
+        "product_type_id": 2,
+        "name": "Lobak",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 10.35,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-08"
+    },
+    {
+        "id": 461,
+        "product_type_id": 1,
+        "name": "Sachet",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.86,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-04-14"
+    },
+    {
+        "id": 462,
+        "product_type_id": 2,
+        "name": "Ice Cream - Fudge Bars",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 13.61,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-05"
+    },
+    {
+        "id": 463,
+        "product_type_id": 48,
+        "name": "Bread - Rolls, Rye",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.74,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-07"
+    },
+    {
+        "id": 464,
+        "product_type_id": 29,
+        "name": "Flour - Semolina",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 30.36,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-07-24"
+    },
+    {
+        "id": 465,
+        "product_type_id": 8,
+        "name": "Table Cloth 53x69 White",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.62,
+        "reduced_by": 4.04,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-16"
+    },
+    {
+        "id": 466,
+        "product_type_id": 36,
+        "name": "Beans - Soya Bean",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 36.45,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 467,
+        "product_type_id": 27,
+        "name": "Cheese - Gouda",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.70,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 468,
+        "product_type_id": 11,
+        "name": "Sambuca Cream",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 6.97,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-30"
+    },
+    {
+        "id": 469,
+        "product_type_id": 34,
+        "name": "Calypso - Strawberry Lemonade",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 17.55,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 470,
+        "product_type_id": 16,
+        "name": "Muffin - Bran Ind Wrpd",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 14.69,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 471,
+        "product_type_id": 31,
+        "name": "Olives - Kalamata",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 4.22,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-11-22"
+    },
+    {
+        "id": 472,
+        "product_type_id": 40,
+        "name": "V8 Pet",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.92,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 473,
+        "product_type_id": 4,
+        "name": "Celery",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 38.68,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-03-07"
+    },
+    {
+        "id": 474,
+        "product_type_id": 18,
+        "name": "Chocolate - Feathers",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.74,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-28"
+    },
+    {
+        "id": 475,
+        "product_type_id": 26,
+        "name": "Cheese - Parmesan Cubes",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 34.33,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-04-23"
+    },
+    {
+        "id": 476,
+        "product_type_id": 35,
+        "name": "Honey - Liquid",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 31.52,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 477,
+        "product_type_id": 40,
+        "name": "Pork Loin Cutlets",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.30,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-08-31"
+    },
+    {
+        "id": 478,
+        "product_type_id": 50,
+        "name": "Jolt Cola - Electric Blue",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.04,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 479,
+        "product_type_id": 47,
+        "name": "Beets - Mini Golden",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.49,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-03-18"
+    },
+    {
+        "id": 480,
+        "product_type_id": 39,
+        "name": "Eggs - Extra Large",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 2.35,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 481,
+        "product_type_id": 13,
+        "name": "Ham - Smoked, Bone - In",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 1.61,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-02"
+    },
+    {
+        "id": 482,
+        "product_type_id": 6,
+        "name": "Filo Dough",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 0.72,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 483,
+        "product_type_id": 14,
+        "name": "Carbonated Water - Orange",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.76,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-01-14"
+    },
+    {
+        "id": 484,
+        "product_type_id": 6,
+        "name": "Quail Eggs - Canned",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.51,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 485,
+        "product_type_id": 42,
+        "name": "Chicken - White Meat With Tender",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.83,
+        "reduced_by": null,
+        "status": "ProductStatus.out_of_stock",
+        "expires_at": null
+    },
+    {
+        "id": 486,
+        "product_type_id": 21,
+        "name": "Cleaner - Pine Sol",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 11.27,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": null
+    },
+    {
+        "id": 487,
+        "product_type_id": 27,
+        "name": "Papadam",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 25.33,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 488,
+        "product_type_id": 5,
+        "name": "Horseradish - Prepared",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 29.16,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 489,
+        "product_type_id": 45,
+        "name": "Turnip - Mini",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 28.98,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 490,
+        "product_type_id": 42,
+        "name": "Wine - Ruffino Chianti Classico",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.85,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 491,
+        "product_type_id": 46,
+        "name": "Energy Drink - Franks Original",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.22,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-09"
+    },
+    {
+        "id": 492,
+        "product_type_id": 46,
+        "name": "Longos - Lasagna Beef",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 3.06,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-02-14"
+    },
+    {
+        "id": 493,
+        "product_type_id": 4,
+        "name": "Seedlings - Clamshell",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 15.12,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2020-12-24"
+    },
+    {
+        "id": 494,
+        "product_type_id": 29,
+        "name": "Wine - Chianti Classica Docg",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 7.49,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 495,
+        "product_type_id": 42,
+        "name": "Wasabi Powder",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 19.50,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-02-28"
+    },
+    {
+        "id": 496,
+        "product_type_id": 24,
+        "name": "Rum - Coconut, Malibu",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 23.58,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 497,
+        "product_type_id": 8,
+        "name": "Garbage Bag - Clear",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 37.83,
+        "reduced_by": 7.75,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-05-05"
+    },
+    {
+        "id": 498,
+        "product_type_id": 28,
+        "name": "Plastic Arrow Stir Stick",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 12.97,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": null
+    },
+    {
+        "id": 499,
+        "product_type_id": 13,
+        "name": "Red Cod Fillets - 225g",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 16.99,
+        "reduced_by": null,
+        "status": "ProductStatus.in_stock",
+        "expires_at": "2021-07-08"
+    },
+    {
+        "id": 500,
+        "product_type_id": 37,
+        "name": "Dooleys Toffee",
+        "image_url": "https://picsum.photos/200/300",
+        "price": 21.81,
+        "reduced_by": null,
+        "status": "ProductStatus.running_low",
+        "expires_at": "2021-01-31"
+    }
+]

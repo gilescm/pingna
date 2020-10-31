@@ -1,0 +1,252 @@
+[
+    {
+        "id": 1,
+        "shop_id": 1,
+        "name": "Halloween"
+    },
+    {
+        "id": 2,
+        "shop_id": 1,
+        "name": "Bundles"
+    },
+    {
+        "id": 3,
+        "shop_id": 1,
+        "name": "Special Offers"
+    },
+    {
+        "id": 4,
+        "shop_id": 1,
+        "name": "Electronics"
+    },
+    {
+        "id": 5,
+        "shop_id": 1,
+        "name": "Movies"
+    },
+    {
+        "id": 6,
+        "shop_id": 1,
+        "name": "Beauty"
+    },
+    {
+        "id": 7,
+        "shop_id": 1,
+        "name": "Sports"
+    },
+    {
+        "id": 8,
+        "shop_id": 2,
+        "name": "Special Offers"
+    },
+    {
+        "id": 9,
+        "shop_id": 2,
+        "name": "Industrial"
+    },
+    {
+        "id": 10,
+        "shop_id": 2,
+        "name": "Garden"
+    },
+    {
+        "id": 11,
+        "shop_id": 2,
+        "name": "Spirits, Liquers & Ethanol"
+    },
+    {
+        "id": 12,
+        "shop_id": 2,
+        "name": "Tools"
+    },
+    {
+        "id": 13,
+        "shop_id": 3,
+        "name": "Outdoors"
+    },
+    {
+        "id": 14,
+        "shop_id": 3,
+        "name": "Jewelery"
+    },
+    {
+        "id": 15,
+        "shop_id": 3,
+        "name": "Tea & Coffee"
+    },
+    {
+        "id": 16,
+        "shop_id": 3,
+        "name": "Health"
+    },
+    {
+        "id": 17,
+        "shop_id": 3,
+        "name": "Fruit & Veg"
+    },
+    {
+        "id": 18,
+        "shop_id": 3,
+        "name": "World Foods"
+    },
+    {
+        "id": 19,
+        "shop_id": 4,
+        "name": "Music"
+    },
+    {
+        "id": 20,
+        "shop_id": 4,
+        "name": "Computers"
+    },
+    {
+        "id": 21,
+        "shop_id": 4,
+        "name": "Beer & Ciders"
+    },
+    {
+        "id": 22,
+        "shop_id": 4,
+        "name": "Shoes"
+    },
+    {
+        "id": 23,
+        "shop_id": 4,
+        "name": "Alcohol"
+    },
+    {
+        "id": 24,
+        "shop_id": 4,
+        "name": "Toys"
+    },
+    {
+        "id": 25,
+        "shop_id": 5,
+        "name": "Champagne & Sparkling Wine"
+    },
+    {
+        "id": 26,
+        "shop_id": 5,
+        "name": "Kids"
+    },
+    {
+        "id": 27,
+        "shop_id": 5,
+        "name": "Magazines"
+    },
+    {
+        "id": 28,
+        "shop_id": 5,
+        "name": "Cleaning"
+    },
+    {
+        "id": 29,
+        "shop_id": 5,
+        "name": "Cushions"
+    },
+    {
+        "id": 30,
+        "shop_id": 5,
+        "name": "Cereal"
+    },
+    {
+        "id": 31,
+        "shop_id": 6,
+        "name": "Soft Drinks"
+    },
+    {
+        "id": 32,
+        "shop_id": 6,
+        "name": "Games"
+    },
+    {
+        "id": 33,
+        "shop_id": 6,
+        "name": "Tables & Chairs"
+    },
+    {
+        "id": 34,
+        "shop_id": 6,
+        "name": "Shampoo"
+    },
+    {
+        "id": 35,
+        "shop_id": 6,
+        "name": "Breakfast Rolls"
+    },
+    {
+        "id": 36,
+        "shop_id": 6,
+        "name": "Clothing"
+    },
+    {
+        "id": 37,
+        "shop_id": 7,
+        "name": "Baby"
+    },
+    {
+        "id": 38,
+        "shop_id": 7,
+        "name": "Haribo Sweets"
+    },
+    {
+        "id": 39,
+        "shop_id": 7,
+        "name": "Dairy & Eggs"
+    },
+    {
+        "id": 40,
+        "shop_id": 7,
+        "name": "Books"
+    },
+    {
+        "id": 41,
+        "shop_id": 7,
+        "name": "Home"
+    },
+    {
+        "id": 42,
+        "shop_id": 7,
+        "name": "Other"
+    },
+    {
+        "id": 43,
+        "shop_id": 8,
+        "name": "Crisps/Chips"
+    },
+    {
+        "id": 44,
+        "shop_id": 8,
+        "name": "Desserts"
+    },
+    {
+        "id": 45,
+        "shop_id": 8,
+        "name": "Furniture"
+    },
+    {
+        "id": 46,
+        "shop_id": 8,
+        "name": "Oils"
+    },
+    {
+        "id": 47,
+        "shop_id": 8,
+        "name": "Automotive"
+    },
+    {
+        "id": 48,
+        "shop_id": 8,
+        "name": "Films"
+    },
+    {
+        "id": 49,
+        "shop_id": 9,
+        "name": "Cat food"
+    },
+    {
+        "id": 50,
+        "shop_id": 9,
+        "name": "Dog Food"
+    }
+]

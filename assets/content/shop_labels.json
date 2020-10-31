@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "30 - 90 mins"
+    },
+    {
+        "id": 2,
+        "name": "Local favourite"
+    },
+    {
+        "id": 3,
+        "name": "Order until 11pm!"
+    },
+    {
+        "id": 4,
+        "name": "FAMOUS IN EAST LONDON"
+    },
+    {
+        "id": 5,
+        "name": "NEW"
+    },
+    {
+        "id": 6,
+        "name": "ALL YOUR FAVOURITES"
+    },
+    {
+        "id": 7,
+        "name": "BROADWAY MARKET CLASSIC"
+    },
+    {
+        "id": 8,
+        "name": "DIY ESSENTIALS"
+    },
+    {
+        "id": 9,
+        "name": "INDEPENDENT CLASSIC"
+    }
+]
