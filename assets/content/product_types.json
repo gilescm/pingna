@@ -106,17 +106,17 @@
     },
     {
         "id": 22,
-        "shop_id": 4,
+        "shop_id": 5,
         "name": "Shoes"
     },
     {
         "id": 23,
-        "shop_id": 4,
+        "shop_id": 5,
         "name": "Alcohol"
     },
     {
         "id": 24,
-        "shop_id": 4,
+        "shop_id": 5,
         "name": "Toys"
     },
     {
@@ -126,127 +126,127 @@
     },
     {
         "id": 26,
-        "shop_id": 5,
+        "shop_id": 6,
         "name": "Kids"
     },
     {
         "id": 27,
-        "shop_id": 5,
+        "shop_id": 7,
         "name": "Magazines"
     },
     {
         "id": 28,
-        "shop_id": 5,
+        "shop_id": 7,
         "name": "Cleaning"
     },
     {
         "id": 29,
-        "shop_id": 5,
+        "shop_id": 7,
         "name": "Cushions"
     },
     {
         "id": 30,
-        "shop_id": 5,
+        "shop_id": 8,
         "name": "Cereal"
     },
     {
         "id": 31,
-        "shop_id": 6,
+        "shop_id": 8,
         "name": "Soft Drinks"
     },
     {
         "id": 32,
-        "shop_id": 6,
+        "shop_id": 9,
         "name": "Games"
     },
     {
         "id": 33,
-        "shop_id": 6,
+        "shop_id": 9,
         "name": "Tables & Chairs"
     },
     {
         "id": 34,
-        "shop_id": 6,
+        "shop_id": 10,
         "name": "Shampoo"
     },
     {
         "id": 35,
-        "shop_id": 6,
+        "shop_id": 10,
         "name": "Breakfast Rolls"
     },
     {
         "id": 36,
-        "shop_id": 6,
+        "shop_id": 10,
         "name": "Clothing"
     },
     {
         "id": 37,
-        "shop_id": 7,
+        "shop_id": 11,
         "name": "Baby"
     },
     {
         "id": 38,
-        "shop_id": 7,
+        "shop_id": 12,
         "name": "Haribo Sweets"
     },
     {
         "id": 39,
-        "shop_id": 7,
+        "shop_id": 13,
         "name": "Dairy & Eggs"
     },
     {
         "id": 40,
-        "shop_id": 7,
+        "shop_id": 13,
         "name": "Books"
     },
     {
         "id": 41,
-        "shop_id": 7,
+        "shop_id": 14,
         "name": "Home"
     },
     {
         "id": 42,
-        "shop_id": 7,
+        "shop_id": 14,
         "name": "Other"
     },
     {
         "id": 43,
-        "shop_id": 8,
+        "shop_id": 14,
         "name": "Crisps/Chips"
     },
     {
         "id": 44,
-        "shop_id": 8,
+        "shop_id": 15,
         "name": "Desserts"
     },
     {
         "id": 45,
-        "shop_id": 8,
+        "shop_id": 15,
         "name": "Furniture"
     },
     {
         "id": 46,
-        "shop_id": 8,
+        "shop_id": 16,
         "name": "Oils"
     },
     {
         "id": 47,
-        "shop_id": 8,
+        "shop_id": 16,
         "name": "Automotive"
     },
     {
         "id": 48,
-        "shop_id": 8,
+        "shop_id": 16,
         "name": "Films"
     },
     {
         "id": 49,
-        "shop_id": 9,
+        "shop_id": 17,
         "name": "Cat food"
     },
     {
         "id": 50,
-        "shop_id": 9,
+        "shop_id": 17,
         "name": "Dog Food"
     }
 ]
