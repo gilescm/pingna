@@ -4,10 +4,12 @@ import 'package:flutter_secure_storage/flutter_secure_storage.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
 import 'package:pingna/core/models/user.dart';
+import 'package:pingna/core/services/api_service.dart';
 import 'package:pingna/core/services/auth_service.dart';
 import 'package:pingna/core/services/theme_service.dart';
 import 'package:pingna/core/services/database_service.dart';
 import 'package:pingna/core/services/keyboard_overlay_service.dart';
+import 'package:pingna/core/viewmodels/home_view_model.dart';
 
 List<SingleChildWidget> providers(Auth auth) {
   // "..." Flattens the array (called the spread function in dart)
@@ -20,6 +22,7 @@ List<SingleChildWidget> providers(Auth auth) {
 
 List<SingleChildWidget> independentServices = [
   Provider(create: (_) => PingnaDB()),
+  Provider(create: (_) => PingnaApi()),
   Provider(create: (_) => FlutterSecureStorage()),
   Provider(create: (_) => FlutterLocalNotificationsPlugin()),
   Provider(create: (_) => KeyboardOverlayService()),
@@ -30,7 +33,7 @@ List<SingleChildWidget> dependentServices(Auth auth) {
     /// The Theme service depends on:
     /// - Storage to collect the last set theme by the user
     ChangeNotifierProvider<PingnaTheme>(
-     create: (context) => PingnaTheme(
+      create: (context) => PingnaTheme(
         context.read<FlutterSecureStorage>(),
       )..init(),
     ),
@@ -51,8 +54,15 @@ List<SingleChildWidget> dependentServices(Auth auth) {
 }
 
 List<SingleChildWidget> userDependentProviders = [
-  // Setup a value listenable provider for the user since information on the 
+  // Setup a value listenable provider for the user since information on the
   // current user will be required throughout the app and we don't want to carry
   // the auth provider through each time.
   ValueListenableProvider<User>(create: (context) => context.read<Auth>().user),
+
+  ChangeNotifierProvider(
+    create: (context) => HomeViewModel(
+      context.read<User>(),
+      context.read<PingnaApi>(),
+    )..init(),
+  ),
 ];

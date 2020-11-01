@@ -27,9 +27,9 @@ class Shop {
   });
 
   static Shop fromMap(Map<String, dynamic> map) {
-    List labelIdList = map[colLabelIds] is String
+    List<int> labelIdList = map[colLabelIds] is String
         ? jsonDecode(map[colLabelIds])
-        : map[colLabelIds];
+        : List.from(map[colLabelIds]);
 
     TimeOfDay opensAt;
     final opensAtMap = map[colOpensAt];

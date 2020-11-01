@@ -91,6 +91,10 @@ class PingnaTheme extends ChangeNotifier {
           color: charcoalColor,
           fontWeight: FontWeight.bold,
         ),
+        headline6: GoogleFonts.sourceSerifPro(
+          color: charcoalColor,
+          fontWeight: FontWeight.bold,
+        ),
         button: TextStyle(
           color: backgroundColor,
           fontWeight: FontWeight.bold,
