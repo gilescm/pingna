@@ -2,25 +2,33 @@ import 'package:flutter/material.dart';
 import 'package:pingna/resources/assets.dart';
 
 class PostBoxShape extends StatelessWidget {
+  final Color color;
+
+  PostBoxShape({this.color = primaryColor});
+
   @override
   Widget build(BuildContext context) {
     return Container(
       width: double.infinity,
       height: MediaQuery.of(context).size.height * 0.4,
       child: CustomPaint(
-        painter: _MyPainter(),
+        painter: _MyPainter(color: color),
       ),
     );
   }
 }
 
 class _MyPainter extends CustomPainter {
+  final Color color;
+
+  _MyPainter({@required this.color});
+
   @override
   void paint(Canvas canvas, Size size) {
     Paint paint = new Paint()
       ..style = PaintingStyle.fill
       ..isAntiAlias = true
-      ..color = primaryColor;
+      ..color = color;
 
     Offset topLeft = Offset(0, size.height * 0.5);
     Offset bottomLeft = Offset(0, size.height);
