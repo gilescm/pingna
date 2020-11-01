@@ -1,3 +1,5 @@
+import 'package:easy_localization/easy_localization.dart';
+
 import 'package:pingna/core/constants.dart';
 
 class User {
@@ -66,4 +68,6 @@ class User {
 
   bool get isVisitor => userTypeId == VISITOR;
   bool get isCustomer => userTypeId == CUSTOMER;
+
+  String get name => this.firstName ?? 'app.you'.tr();
 }

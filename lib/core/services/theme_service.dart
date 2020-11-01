@@ -86,6 +86,10 @@ class PingnaTheme extends ChangeNotifier {
           fontWeight: FontWeight.bold,
           fontSize: 34,
         ),
+        headline5: GoogleFonts.sourceSerifPro(
+          color: charcoalColor,
+          fontWeight: FontWeight.bold,
+        ),
         button: TextStyle(
           color: backgroundColor,
           fontWeight: FontWeight.bold,
@@ -96,6 +100,7 @@ class PingnaTheme extends ChangeNotifier {
         textTheme: ButtonTextTheme.accent,
         buttonColor: primaryColor,
       ),
+      iconTheme: IconThemeData(color: primaryColor),
       inputDecorationTheme: InputDecorationTheme(
         enabledBorder: UnderlineInputBorder(
           borderSide: BorderSide(

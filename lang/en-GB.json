@@ -1,6 +1,7 @@
 {
     "app": {
         "name": "Pingna",
+        "you": "you",
         "btn": {
             "yes": "Yes",
             "no": "No",
@@ -34,5 +35,10 @@
             "email_format": "Please make sure your email is correct",
             "first_name": "Please enter your first name"
         }
+    },
+    "home": {
+        "greeting": "Hello, {}",
+        "subtitle": "Discover your local shops",
+        "search": "Search for any product"
     }
 }
