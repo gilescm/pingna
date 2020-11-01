@@ -4,13 +4,13 @@ class PingnaSubmitButton extends StatelessWidget {
   const PingnaSubmitButton({
     Key key,
     this.label,
-    this.onPressed,
     this.style,
+    this.onPressed,
   }) : super(key: key);
 
   final String label;
-  final VoidCallback onPressed;
   final PingnaButtonStyle style;
+  final VoidCallback onPressed;
 
   @override
   Widget build(BuildContext context) {

@@ -5,15 +5,28 @@ class PingnaTextField extends StatelessWidget {
   const PingnaTextField({
     @required this.focusNode,
     @required this.label,
-    this.enableSuffix,
-    this.textCapitalization,
+    @required this.value,
+    this.enableSuffix = false,
+    this.textCapitalization = TextCapitalization.none,
+    this.keyboardType = TextInputType.text,
+    this.textInputAction = TextInputAction.done,
     this.inputFormatters,
+    this.onChanged,
+    this.onFieldSubmitted,
+    this.validator,
   });
 
   final FocusNode focusNode;
   final String label;
+  final String value;
   final TextCapitalization textCapitalization;
+  final TextInputType keyboardType;
+  final TextInputAction textInputAction;
   final List<TextInputFormatter> inputFormatters;
+
+  final Function(String) onChanged;
+  final Function(String) onFieldSubmitted;
+  final Function(String) validator;
 
   /// If enabled then suffix will appear whilst field is in focus
   final bool enableSuffix;
@@ -22,6 +35,7 @@ class PingnaTextField extends StatelessWidget {
   Widget build(BuildContext context) {
     final showSuffix = enableSuffix && focusNode.hasFocus;
     return TextFormField(
+      initialValue: value,
       focusNode: focusNode,
       decoration: InputDecoration(
         labelText: label,
@@ -31,7 +45,12 @@ class PingnaTextField extends StatelessWidget {
         ),
       ),
       textCapitalization: textCapitalization,
+      keyboardType: keyboardType,
+      textInputAction: textInputAction,
       inputFormatters: inputFormatters,
+      onChanged: onChanged,
+      onFieldSubmitted: onFieldSubmitted,
+      validator: validator,
     );
   }
 }
