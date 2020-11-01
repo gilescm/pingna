@@ -5,6 +5,7 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:pingna/core/models/user.dart';
 
 import 'package:pingna/resources/assets.dart';
+import 'package:pingna/resources/widgets/layouts/drawer.dart';
 
 class HomeView extends StatelessWidget {
   const HomeView({Key key}) : super(key: key);
@@ -34,6 +35,7 @@ class HomeView extends StatelessWidget {
           ),
         ],
       ),
+      drawer: PingnaDrawer(),
       body: CustomScrollView(
         slivers: <Widget>[
           SliverAppBar(
@@ -99,16 +101,3 @@ class HomeView extends StatelessWidget {
     );
   }
 }
-
-// body: Center(
-//   child: Column(
-//     mainAxisAlignment: MainAxisAlignment.center,
-//     children: <Widget>[
-//       Text(
-//         context.watch<User>().firstName,
-//         style: Theme.of(context).textTheme.headline4,
-//       ),
-//       Text(context.watch<User>().email),
-//     ],
-//   ),
-// ),

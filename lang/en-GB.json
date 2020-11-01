@@ -1,11 +1,15 @@
 {
+    "dev": {
+        "not_built_yet": "Whoops, it looks like this feature hasn't been built yet 🤨 Check back soon!"
+    },
     "app": {
         "name": "Pingna",
         "you": "you",
         "btn": {
             "yes": "Yes",
             "no": "No",
-            "ok": "OK, Lovely"
+            "ok": "OK, Lovely",
+            "sure": "Sure, no problem!"
         }
     },
     "onboarding": {
@@ -39,6 +43,13 @@
     "home": {
         "greeting": "Hello, {}",
         "subtitle": "Discover your local shops",
-        "search": "Search for any product"
+        "search": "Search for any product",
+        "drawer": {
+            "greeting": "Hey, {}",
+            "faqs": "FAQ's",
+            "contact_prefix": "Contact helpdesk: ",
+            "report": "Make a suggestion",
+            "win": "Win £25"
+        }
     }
 }

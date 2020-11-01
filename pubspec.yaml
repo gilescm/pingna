@@ -33,6 +33,7 @@ dependencies:
   provider: ^4.3.2+2
   equatable: ^1.2.5
   encrypt: ^4.0.3
+  mailto: ^1.0.0
 
   # Database / Storage packages
   flutter_secure_storage: ^3.3.5

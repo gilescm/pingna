@@ -2,7 +2,12 @@
 const String welcomeRoute = "/welcome";
 const String postcodeRoute = "/welcome/post-code";
 const String firstFreeDeliveryRoute = "/welcome/first-free-delivery";
-const String homeRoute = "/home";
+const String homeRoute = "/";
+
+// Links 
+const String faqLink = "https://pinga.co.uk/legal/help-faqs";
+const String contactEmailLink = "help@pinga.co.uk";
+const String fakeLink = "fakelinkthatdoesntexist";
 
 // Secure storage keys / settings
 const String firstLoggedInUser = "firstLoggedInUser";

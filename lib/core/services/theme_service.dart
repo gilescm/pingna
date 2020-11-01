@@ -77,6 +77,7 @@ class PingnaTheme extends ChangeNotifier {
         foregroundColor: backgroundColor,
       ),
       cupertinoOverrideTheme: CupertinoThemeData(primaryColor: primaryColor),
+      canvasColor: Colors.transparent,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       buttonColor: primaryColor,
       accentColor: backgroundColor,
