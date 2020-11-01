@@ -20,9 +20,14 @@ class _WelcomeViewState extends State<WelcomeView> {
   void initState() {
     super.initState();
 
+    // This video is loaded from assets for demo purposes. It would be better
+    // practise to load this video via network in order to cut down on the app
+    // size.
     _controller = VideoPlayerController.asset(
       onboardingVideoPath,
-      videoPlayerOptions: VideoPlayerOptions(mixWithOthers: true),
+      videoPlayerOptions: VideoPlayerOptions(
+        mixWithOthers: true, // Stop other music from cancelling during playback
+      ),
     )..initialize().then((_) {
         // Ensure the first frame is shown after the video is initialized.
         setState(() {});
