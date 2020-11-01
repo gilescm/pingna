@@ -51,5 +51,8 @@
             "report": "Make a suggestion",
             "win": "Win £25"
         }
+    },
+    "shop": {
+        "search": "Search"
     }
 }

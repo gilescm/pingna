@@ -1,13 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:easy_localization/easy_localization.dart';
 
 import 'package:pingna/core/models/user.dart';
 import 'package:pingna/core/viewmodels/home_view_model.dart';
 
-import 'package:pingna/resources/assets.dart';
 import 'package:pingna/resources/widgets/home/shop_item.dart';
 import 'package:pingna/resources/widgets/layouts/drawer.dart';
+import 'package:pingna/resources/widgets/layouts/home_app_bar.dart';
 
 class HomeView extends StatelessWidget {
   HomeView({Key key}) : super(key: key);
@@ -48,7 +47,7 @@ class HomeView extends StatelessWidget {
       body: Consumer<HomeViewModel>(
         builder: (context, model, _) => CustomScrollView(
           slivers: <Widget>[
-            SearchAppBar(user: model.user),
+            HomeAppBar(user: model.user),
             if (model.isInitialised) ...[
               SliverList(
                 delegate: SliverChildBuilderDelegate(
@@ -106,72 +105,6 @@ class HomeView extends StatelessWidget {
       ),
 
       // TODO: Use FAB as basket icon if one is active
-    );
-  }
-}
-
-class SearchAppBar extends StatelessWidget {
-  const SearchAppBar({
-    Key key,
-    @required this.user,
-  }) : super(key: key);
-
-  final User user;
-
-  @override
-  Widget build(BuildContext context) {
-    return SliverAppBar(
-      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
-      automaticallyImplyLeading: false,
-      // TODO: Make expandedHeight dynamic based on device text size
-      expandedHeight: 120,
-      pinned: true,
-      elevation: 0,
-      flexibleSpace: FlexibleSpaceBar(
-        collapseMode: CollapseMode.parallax,
-        background: ListTile(
-          dense: true,
-          title: Text(
-            'home.greeting'.tr(args: [user.name]),
-            style: Theme.of(context).textTheme.headline5,
-          ),
-          subtitle: Text('home.subtitle'.tr()),
-        ),
-      ),
-      bottom: PreferredSize(
-        preferredSize: Size.fromHeight(4.0),
-        child: Container(
-          color: Theme.of(context).scaffoldBackgroundColor,
-          padding: const EdgeInsets.only(bottom: 4.0),
-          child: ListTile(
-            title: Container(
-              decoration: BoxDecoration(
-                border: Border.all(color: lightcharcoalColor),
-                borderRadius: BorderRadius.circular(4.0),
-              ),
-              padding: const EdgeInsets.symmetric(
-                horizontal: 16.0,
-                vertical: 8.0,
-              ),
-              child: Row(
-                children: [
-                  Icon(
-                    Icons.search,
-                    color: Theme.of(context).textTheme.bodyText2.color,
-                  ),
-                  Padding(
-                    padding: const EdgeInsets.only(left: 8.0),
-                    child: Text(
-                      'home.search'.tr(),
-                      style: Theme.of(context).textTheme.bodyText2,
-                    ),
-                  ),
-                ],
-              ),
-            ),
-          ),
-        ),
-      ),
     );
   }
 }

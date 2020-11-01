@@ -1,10 +1,8 @@
-import 'dart:math';
-
 import 'package:flutter/material.dart';
+
 import 'package:pingna/core/models/shop/shop.dart';
 import 'package:pingna/core/models/shop/shop_label.dart';
 import 'package:pingna/core/models/shop/shop_type.dart';
-
 import 'package:pingna/core/models/user.dart';
 import 'package:pingna/core/services/api_service.dart';
 
