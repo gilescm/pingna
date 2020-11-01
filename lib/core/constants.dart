@@ -1,6 +1,7 @@
 // Routes
 const String welcomeRoute = "/welcome";
 const String postcodeRoute = "/welcome/post-code";
+const String firstFreeDeliveryRoute = "/welcome/first-free-delivery";
 const String homeRoute = "/home";
 
 // Secure storage keys / settings
@@ -20,6 +21,7 @@ const String basketProductsTable = "basket_products";
 const String colId = "id";
 const String colEmail = "email";
 const String colFirstName = "first_name";
+const String colPostCode = "post_code";
 const String colName = "name";
 const String colDescription = "description";
 const String colImageUrl = "image_url";

@@ -7,6 +7,7 @@ class User {
   final int id;
   final String email;
   final String firstName;
+  final String postCode;
   final int userTypeId;
 
   List _deviceInfo;
@@ -17,6 +18,7 @@ class User {
     this.id, {
     this.email,
     this.firstName,
+    this.postCode,
     this.userTypeId,
   });
 
@@ -28,6 +30,7 @@ class User {
       map[colId],
       email: map[colEmail],
       firstName: map[colFirstName],
+      postCode: map[colPostCode],
       userTypeId: map[colUserTypeId],
     );
   }
@@ -38,6 +41,7 @@ class User {
       colId: id,
       colEmail: email,
       colFirstName: firstName,
+      colPostCode: postCode,
       colUserTypeId: userTypeId,
     };
 
@@ -48,12 +52,14 @@ class User {
     String email,
     int id,
     String firstName,
+    String postCode,
     int userTypeId,
   }) {
     return User(
       id ?? this.id,
       email: email ?? this.email,
       firstName: firstName ?? this.firstName,
+      postCode: postCode ?? this.postCode,
       userTypeId: userTypeId ?? this.userTypeId,
     );
   }

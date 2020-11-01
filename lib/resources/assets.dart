@@ -6,6 +6,7 @@ const Color primaryColor = Color(0xFF72C676);
 const Color backgroundColor = Color(0xFFFFFFFF);
 const Color charcoalColor = Color(0xFF373A36);
 const Color lightcharcoalColor = Color(0xFF9A9B9A);
+const Color orangePastelColor = Color(0xFFffd294);
 
 // Asset paths
 

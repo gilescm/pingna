@@ -1,11 +1,38 @@
 {
     "app": {
-        "name": "Pingna"
+        "name": "Pingna",
+        "btn": {
+            "yes": "Yes",
+            "no": "No",
+            "ok": "OK, Lovely"
+        }
     },
     "onboarding": {
         "get_started": "Get started",
         "welcome": "Welcome 😊 Let's see if we deliver to you",
         "postcode": "Enter your postcode",
-        "check_now": "Check now"
+        "postcode_required": "Please enter your postcode",
+        "check_now": "Check now",
+        "success": "Good news, we're in your area 😊",
+        "free_first": {
+            "title": "Get your first delivery free 🙌",
+            "msg": "We'll email you a free deliver code and other informationa bout Pingna, in acoordance with our ",
+            "privacy": "privacy policy",
+            "privacy_msg": "A friendly, clear and easy to navigate privacy policy"
+        },
+        "email": "Enter your email",
+        "first_name": "Your first name",
+        "get_code": "Get free delivery code",
+        "no_thanks": "No thanks",
+        "finished": {
+            "title": "Welcome to Pingna",
+            "msg": "Browse our shops or search for any product to get started!"
+        },
+        "validation": {
+            "postcode": "Please enter your postcode",
+            "email": "Please enter your email",
+            "email_format": "Please make sure your email is correct",
+            "first_name": "Please enter your first name"
+        }
     }
 }
