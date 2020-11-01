@@ -19,7 +19,8 @@ void main() async {
   await auth.init();
   final user = await auth.fromStorage;
   var initialRoute = welcomeRoute;
-  // Check user access token expiry date
+
+  // Check if a user exists on this device
   if (user != User.none) initialRoute = homeRoute;
 
   runApp(MultiProvider(providers: providers(auth), child: MyApp(initialRoute)));
