@@ -11,7 +11,6 @@ import 'package:pingna/core/services/api_service.dart';
 class HomeViewModel extends ChangeNotifier {
   final User user;
   final PingnaApi api;
-  final rng = new Random();
 
   HomeViewModel(this.user, this.api);
 
@@ -44,10 +43,12 @@ class HomeViewModel extends ChangeNotifier {
 
   void init() async {
     _shopTypes = await api.shopTypes();
+
+    // TODO: Think about refactoring [api.shops()] out this view model
+    // The idea being that we can then update the api to only return shops of a given type
+    // Trade off is more api calls though.
     _shops = await api.shops();
     _shopLabels = await api.shopLabels();
     isInitialised = true;
   }
-
-  int get randomId => rng.nextInt(100);
 }

@@ -73,7 +73,6 @@ class HomeView extends StatelessWidget {
                         Container(
                           height: 300,
                           child: ListView.builder(
-                            shrinkWrap: true,
                             scrollDirection: Axis.horizontal,
                             itemCount: shops.length,
                             itemBuilder: (context, shopIndex) {
@@ -82,7 +81,6 @@ class HomeView extends StatelessWidget {
                               return HomeShopItem(
                                 item: shop,
                                 labels: labels,
-                                picIndex: model.randomId,
                               );
                             },
                           ),
