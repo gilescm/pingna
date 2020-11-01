@@ -6,26 +6,8 @@ import 'package:pingna/core/models/user.dart';
 
 import 'package:pingna/resources/assets.dart';
 
-class HomeView extends StatefulWidget {
-  HomeView({Key key}) : super(key: key);
-
-  @override
-  _HomeViewState createState() => _HomeViewState();
-}
-
-class _HomeViewState extends State<HomeView> {
-  int _counter = 0;
-
-  void _incrementCounter() {
-    setState(() {
-      // This call to setState tells the Flutter framework that something has
-      // changed in this State, which causes it to rerun the build method below
-      // so that the display can reflect the updated values. If we changed
-      // _counter without calling setState(), then the build method would not be
-      // called again, and so nothing would appear to happen.
-      _counter++;
-    });
-  }
+class HomeView extends StatelessWidget {
+  const HomeView({Key key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -106,45 +88,6 @@ class _HomeViewState extends State<HomeView> {
               ),
             ),
           ),
-          // bottom: PreferredSize(
-          //   preferredSize: Size.fromHeight(60),
-          //   child: ListTile(
-          //     title: Text(
-          //       'home.greeting'.tr(args: [user.name]),
-          //       style: Theme.of(context).textTheme.headline5,
-          //     ),
-          //     subtitle: Text('home.subtitle'.tr()),
-          //   ),
-          // ),
-          // flexibleSpace: FlexibleSpaceBar(
-          //   stretchModes: [],
-          //   title: ListTile(
-          //     title: Text(
-          //       'home.greeting'.tr(args: [user.name]),
-          //       style: Theme.of(context).textTheme.headline5,
-          //     ),
-          //     subtitle: Text('home.subtitle'.tr()),
-          //   ),
-          // ),
-          // Column(
-          //   mainAxisAlignment: MainAxisAlignment.end,
-          //   children: [
-          //     ListTile(
-          //       title: Text(
-          //         'home.greeting'.tr(args: [user.name]),
-          //         style: Theme.of(context).textTheme.headline5,
-          //       ),
-          //       subtitle: Text('home.subtitle'.tr()),
-          //     ),
-          //     TextFormField(),
-          //   ],
-          // ),
-          // Display a placeholder widget to visualize the shrinking size.
-          // flexibleSpace: Placeholder(),/
-          // Make the initial height of the SliverAppBar larger than normal.
-          // collapsedHeight: 60,
-          // expandedHeight: 200,
-
           SliverList(
             delegate: SliverChildBuilderDelegate((context, index) {
               return Placeholder();
