@@ -29,15 +29,10 @@ class ShopView extends StatelessWidget {
         context.read<User>(),
         context.read<PingnaApi>(),
       )..init(),
-      child: Consumer<ShopViewModel>(
-        builder: (context, model, _) {
-          if (!model.isInitialised) return CircularProgressIndicator();
-
-          return ShopViewBody(
-            model: model,
-            labels: labels,
-          );
-        },
+      builder: (context, child) => ShopViewBody(
+        model: context.watch<ShopViewModel>(),
+        shop: shop,
+        labels: labels,
       ),
     );
   }
@@ -47,10 +42,12 @@ class ShopViewBody extends StatefulWidget {
   const ShopViewBody({
     Key key,
     @required this.model,
+    @required this.shop,
     @required this.labels,
   }) : super(key: key);
 
   final ShopViewModel model;
+  final Shop shop;
   final List<String> labels;
 
   @override
@@ -61,29 +58,23 @@ class _ShopViewBodyState extends State<ShopViewBody>
     with SingleTickerProviderStateMixin {
   ShopViewModel get model => widget.model;
 
-  ScrollController _scrollController;
-  List<ProductType> productTypes;
-
   @override
   void initState() {
     super.initState();
-    productTypes = model.productTypes;
-    _scrollController = ScrollController()..addListener(() => setState(() {}));
   }
 
   @override
   void dispose() {
-    _scrollController.dispose();
     super.dispose();
   }
 
   @override
   Widget build(BuildContext context) {
+    final productTypes = model.productTypes;
     return Scaffold(
       body: DefaultTabController(
         length: productTypes.length,
         child: NestedScrollView(
-          controller: _scrollController,
           headerSliverBuilder: (BuildContext context, bool innerBoxIsScrolled) {
             return <Widget>[
               SliverOverlapAbsorber(
@@ -91,10 +82,9 @@ class _ShopViewBodyState extends State<ShopViewBody>
                   context,
                 ),
                 sliver: ShopAppBar(
-                  shop: widget.model.shop,
+                  shop: widget.shop,
                   labels: widget.labels,
-                  controller: _scrollController,
-                  bottom: TabBar(
+                  bottom: model.isInitialised ? TabBar(
                     isScrollable: true,
                     indicator: ProductTabIndicator(
                       color: Theme.of(context).primaryColor,
@@ -102,7 +92,7 @@ class _ShopViewBodyState extends State<ShopViewBody>
                     tabs: productTypes.map<Tab>((type) {
                       return Tab(text: type.name);
                     }).toList(),
-                  ),
+                  ) : null,
                 ),
               ),
             ];

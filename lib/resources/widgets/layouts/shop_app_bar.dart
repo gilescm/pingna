@@ -114,11 +114,4 @@ class ShopAppBar extends StatelessWidget {
       bottom: bottom,
     );
   }
-
-  static const pingnaShopAppBarShape = const RoundedRectangleBorder(
-    borderRadius: BorderRadius.only(
-      topLeft: Radius.circular(25.0),
-      topRight: Radius.circular(25.0),
-    ),
-  );
 }

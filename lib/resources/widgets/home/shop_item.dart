@@ -3,6 +3,7 @@ import 'package:cached_network_image/cached_network_image.dart';
 
 import 'package:pingna/core/constants.dart';
 import 'package:pingna/core/models/shop/shop.dart';
+import 'package:pingna/resources/assets.dart';
 import 'package:pingna/resources/widgets/home/shop_labels.dart';
 
 class HomeShopItem extends StatelessWidget {
@@ -87,18 +88,4 @@ class HomeShopItem extends StatelessWidget {
       ),
     );
   }
-
-  static const pingnaShopCardShape = const RoundedRectangleBorder(
-    borderRadius: BorderRadius.only(
-      topRight: Radius.circular(12.0),
-      bottomLeft: Radius.circular(12.0),
-    ),
-  );
-
-  static const pingnaShopTitleShape = const RoundedRectangleBorder(
-    borderRadius: BorderRadius.only(
-      topLeft: Radius.circular(12.0),
-      bottomLeft: Radius.circular(12.0),
-    ),
-  );
 }

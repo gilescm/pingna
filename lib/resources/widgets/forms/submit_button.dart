@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pingna/resources/assets.dart';
 
 class PingnaSubmitButton extends StatelessWidget {
   const PingnaSubmitButton({
@@ -34,12 +35,6 @@ class PingnaSubmitButton extends StatelessWidget {
     );
   }
 
-  static const pingnaButtonShape = const RoundedRectangleBorder(
-    borderRadius: BorderRadius.only(
-      topLeft: Radius.circular(12.0),
-      bottomRight: Radius.circular(12.0),
-    ),
-  );
 }
 
 enum PingnaButtonStyle { primary, secondary }

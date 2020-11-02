@@ -69,4 +69,7 @@ class Product {
       colExpiresAt: expiresAt?.toIso8601String(),
     };
   }
+
+  bool get isReduced => reducedBy != null;
+  double get actualPrice => price - (reducedBy ?? 0);
 }

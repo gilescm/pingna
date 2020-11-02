@@ -1,5 +1,6 @@
 
 import 'package:flutter/material.dart';
+import 'package:pingna/resources/assets.dart';
 
 class ShopLabelItem extends StatelessWidget {
   const ShopLabelItem({
@@ -17,7 +18,7 @@ class ShopLabelItem extends StatelessWidget {
       padding: const EdgeInsets.symmetric(horizontal: 4.0),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: pingnaShopLabelShape.borderRadius,
+          borderRadius: pingnaButtonShape.borderRadius,
           color: Theme.of(context).primaryColor,
         ),
         padding: const EdgeInsets.symmetric(vertical: 4.0, horizontal: 8.0),
@@ -31,11 +32,4 @@ class ShopLabelItem extends StatelessWidget {
       ),
     );
   }
-
-  static const pingnaShopLabelShape = const RoundedRectangleBorder(
-    borderRadius: BorderRadius.only(
-      topLeft: Radius.circular(12.0),
-      bottomRight: Radius.circular(12.0),
-    ),
-  );
 }

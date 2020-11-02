@@ -53,6 +53,9 @@
         }
     },
     "shop": {
-        "search": "Search"
+        "search": "Search",
+        "sterling": "£ ",
+        "origianl_price": "(£ {})",
+        "reduced": "REDUCED"
     }
 }

@@ -8,6 +8,7 @@ const Color backgroundColor = Color(0xFFFFFFFF);
 const Color charcoalColor = Color(0xFF373A36);
 const Color lightcharcoalColor = Color(0xFF9A9B9A);
 const Color orangePastelColor = Color(0xFFffd294);
+const Color reducedColor = Color(0xFFF16978);
 
 // Asset paths
 
@@ -35,3 +36,42 @@ MaterialColor buildMaterialColor(Color color) {
   });
   return MaterialColor(color.value, swatch);
 }
+
+const pingnaShopCardShape = const RoundedRectangleBorder(
+  borderRadius: BorderRadius.only(
+    topRight: Radius.circular(12.0),
+    bottomLeft: Radius.circular(12.0),
+  ),
+);
+
+const pingnaShopTitleShape = const RoundedRectangleBorder(
+  borderRadius: BorderRadius.only(
+    topLeft: Radius.circular(12.0),
+    bottomLeft: Radius.circular(12.0),
+  ),
+);
+
+const pingnaButtonShape = const RoundedRectangleBorder(
+  borderRadius: BorderRadius.only(
+    topLeft: Radius.circular(12.0),
+    bottomRight: Radius.circular(12.0),
+  ),
+);
+
+const pingnaShopAppBarShape = const RoundedRectangleBorder(
+  borderRadius: BorderRadius.only(
+    topLeft: Radius.circular(25.0),
+    topRight: Radius.circular(25.0),
+  ),
+);
+
+const pingnaReducedShape = const RoundedRectangleBorder(
+  borderRadius: BorderRadius.only(
+    topLeft: Radius.circular(12.0),
+    topRight: Radius.circular(12.0),
+  ),
+);
+
+const pingnaProductShape = const RoundedRectangleBorder(
+  borderRadius: BorderRadius.all(Radius.circular(12.0)),
+);

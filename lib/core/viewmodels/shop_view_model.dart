@@ -20,7 +20,7 @@ class ShopViewModel extends ChangeNotifier {
     notifyListeners();
   }
 
-  List<ProductType> _productTypes;
+  List<ProductType> _productTypes = [];
   List<ProductType> get productTypes => _productTypes;
 
   Map<ProductType, List<Product>> _products = {};

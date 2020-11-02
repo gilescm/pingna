@@ -19,7 +19,7 @@ class _IndicatorPainter extends BoxPainter {
 
   @override
   void paint(Canvas canvas, Offset offset, ImageConfiguration cfg) {
-    final end = offset + Offset(cfg.size.width * 0.95, cfg.size.height * 0.5);
+    final end = offset + Offset(cfg.size.width * 0.92, cfg.size.height * 0.5);
     canvas.drawCircle(end, 4, _paint);
   }
 }
