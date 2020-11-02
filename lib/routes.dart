@@ -4,6 +4,7 @@ import 'package:pingna/resources/views/auth/onboarding/first_free_delivery_view.
 import 'package:pingna/resources/views/auth/onboarding/post_code_view.dart';
 import 'package:pingna/resources/views/auth/onboarding/welcome_view.dart';
 import 'package:pingna/resources/views/home_view.dart';
+import 'package:pingna/resources/views/shop_view.dart';
 
 class PingnaRouter {
   static Route<dynamic> generateRoute(RouteSettings settings) {
@@ -20,6 +21,8 @@ class PingnaRouter {
     switch (name) {
       case homeRoute:
         return HomeView();
+      case shopRoute:
+        return ShopView(shop: data["shop"], labels: data["labels"]);
       case welcomeRoute:
         return WelcomeView();
       case postcodeRoute:
