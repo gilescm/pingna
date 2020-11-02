@@ -80,7 +80,7 @@ class PingnaTheme extends ChangeNotifier {
       canvasColor: Colors.transparent,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       buttonColor: primaryColor,
-      accentColor: backgroundColor,
+      accentColor: primaryColor,
       textTheme: TextTheme(
         headline4: GoogleFonts.sourceSerifPro(
           color: charcoalColor,

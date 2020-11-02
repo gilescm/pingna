@@ -75,7 +75,7 @@ class HomeView extends StatelessWidget {
                             scrollDirection: Axis.horizontal,
                             itemCount: shops.length,
                             itemBuilder: (context, shopIndex) {
-                              final shop  = shops[shopIndex];
+                              final shop = shops[shopIndex];
                               final labels = model.shopLabelsFor(shop);
                               return HomeShopItem(
                                 item: shop,
@@ -92,13 +92,8 @@ class HomeView extends StatelessWidget {
               ),
             ],
             if (!model.isInitialised)
-              SliverList(
-                delegate: SliverChildBuilderDelegate(
-                  (context, index) {
-                    return Placeholder();
-                  },
-                  childCount: 3,
-                ),
+              SliverToBoxAdapter(
+                child: Center(child: CircularProgressIndicator()),
               )
           ],
         ),

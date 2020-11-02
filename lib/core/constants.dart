@@ -3,6 +3,7 @@ const String welcomeRoute = "/welcome";
 const String postcodeRoute = "/welcome/post-code";
 const String firstFreeDeliveryRoute = "/welcome/first-free-delivery";
 const String homeRoute = "/";
+const String shopRoute = "/shop";
 
 // Links 
 const String faqLink = "https://pinga.co.uk/legal/help-faqs";
