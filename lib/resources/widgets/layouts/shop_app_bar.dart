@@ -12,11 +12,13 @@ class ShopAppBar extends StatelessWidget {
     @required this.shop,
     @required this.labels,
     @required this.controller,
+    @required this.bottom,
   }) : super(key: key);
 
   final Shop shop;
   final List<String> labels;
   final ScrollController controller;
+  final PreferredSizeWidget bottom;
 
   final double kExpandedHeight = 300;
 
@@ -27,42 +29,33 @@ class ShopAppBar extends StatelessWidget {
       pinned: true,
       expandedHeight: kExpandedHeight,
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      title: Container(
+        decoration: BoxDecoration(
+          border: Border.all(color: lightcharcoalColor),
+          borderRadius: BorderRadius.circular(4.0),
+        ),
+        padding: const EdgeInsets.symmetric(
+          horizontal: 8.0,
+          vertical: 4.0,
+        ),
+        child: Row(
+          children: [
+            Icon(
+              Icons.search,
+              color: Theme.of(context).textTheme.bodyText2.color,
+            ),
+            Padding(
+              padding: const EdgeInsets.only(left: 8.0),
+              child: Text(
+                'shop.search'.tr(),
+                style: Theme.of(context).textTheme.bodyText2,
+              ),
+            ),
+          ],
+        ),
+      ),
       flexibleSpace: FlexibleSpaceBar(
         collapseMode: CollapseMode.pin,
-        // TODO: Improve on this by calculating the top padding to stop resizing.
-        // May also need to use a layout builder on the title so we can counteract
-        // the auto resizing of the icon and text
-        titlePadding: EdgeInsets.only(
-          left: _leftTitlePadding,
-          right: 16.0,
-          bottom: 12.0,
-        ),
-        centerTitle: false,
-        title: Container(
-          decoration: BoxDecoration(
-            border: Border.all(color: lightcharcoalColor),
-            borderRadius: BorderRadius.circular(4.0),
-          ),
-          padding: const EdgeInsets.symmetric(
-            horizontal: 8.0,
-            vertical: 4.0,
-          ),
-          child: Row(
-            children: [
-              Icon(
-                Icons.search,
-                color: Theme.of(context).textTheme.bodyText2.color,
-              ),
-              Padding(
-                padding: const EdgeInsets.only(left: 8.0),
-                child: Text(
-                  'shop.search'.tr(),
-                  style: Theme.of(context).textTheme.bodyText2,
-                ),
-              ),
-            ],
-          ),
-        ),
         background: Hero(
           tag: 'shop-${shop.id}',
           child: Material(
@@ -122,6 +115,7 @@ class ShopAppBar extends StatelessWidget {
           ),
         ),
       ),
+      bottom: bottom,
     );
   }
 
@@ -131,28 +125,4 @@ class ShopAppBar extends StatelessWidget {
       topRight: Radius.circular(25.0),
     ),
   );
-
-  double get _leftTitlePadding {
-    const kBasePadding = 16.0;
-    const kMultiplier = 0.5;
-
-    if (controller.hasClients) {
-      if (controller.offset < (kExpandedHeight / 2)) {
-        // In case 50%-100% of the expanded height is viewed
-        return kBasePadding;
-      }
-
-      if (controller.offset > (kExpandedHeight - kToolbarHeight)) {
-        // In case 0% of the expanded height is viewed
-        return (kExpandedHeight / 2 - kToolbarHeight) * kMultiplier +
-            kBasePadding;
-      }
-
-      // In case 0%-50% of the expanded height is viewed
-      return (controller.offset - (kExpandedHeight / 2)) * kMultiplier +
-          kBasePadding;
-    }
-
-    return kBasePadding;
-  }
 }
