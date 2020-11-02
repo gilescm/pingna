@@ -11,23 +11,19 @@ class ShopAppBar extends StatelessWidget {
     Key key,
     @required this.shop,
     @required this.labels,
-    @required this.controller,
     @required this.bottom,
   }) : super(key: key);
 
   final Shop shop;
   final List<String> labels;
-  final ScrollController controller;
   final PreferredSizeWidget bottom;
-
-  final double kExpandedHeight = 300;
 
   @override
   Widget build(BuildContext context) {
     final fontFamily = Theme.of(context).textTheme.headline6.fontFamily;
     return SliverAppBar(
       pinned: true,
-      expandedHeight: kExpandedHeight,
+      expandedHeight: 300,
       backgroundColor: Theme.of(context).scaffoldBackgroundColor,
       title: Container(
         decoration: BoxDecoration(
