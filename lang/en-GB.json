@@ -23,7 +23,7 @@
         "success": "Good news, we're in your area 😊",
         "free_first": {
             "title": "Get your first delivery free 🙌",
-            "msg": "We'll email you a free deliver code and other informationa bout Pingna, in acoordance with our ",
+            "msg": "We'll email you a free delivery code and other information about Pingna, in acoordance with our ",
             "privacy": "privacy policy",
             "privacy_msg": "A friendly, clear and easy to navigate privacy policy"
         },
@@ -48,6 +48,7 @@
         "search": "Search for any product",
         "drawer": {
             "greeting": "Hey, {}",
+            "orders": "Your orders",
             "faqs": "FAQ's",
             "contact_prefix": "Contact helpdesk: ",
             "report": "Make a suggestion",
@@ -59,5 +60,8 @@
         "sterling": "£ ",
         "origianl_price": "(£ {})",
         "reduced": "REDUCED"
+    },
+    "orders": {
+        "title": "Your Orders"
     }
 }

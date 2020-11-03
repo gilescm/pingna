@@ -24,13 +24,10 @@ class HomeViewModel extends ChangeNotifier {
   List<ShopType> get shopTypes => _shopTypes;
 
   List<Shop> _shops;
-  List<Shop> get shops => _shops;
-
   List<ShopLabel> _shopLabels;
-  List<ShopLabel> get shopLabels => _shopLabels;
 
   List<ShopItemModel> shopsBy(int shopTypeId) {
-    final results = shops.where((shop) => shop.shopTypeId == shopTypeId);
+    final results = _shops.where((shop) => shop.shopTypeId == shopTypeId);
     return results.map<ShopItemModel>((shop) {
       return ShopItemModel(
         shop: shop,
