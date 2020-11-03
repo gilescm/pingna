@@ -16,6 +16,10 @@ import 'package:pingna/resources/widgets/shapes/post_box_shape.dart';
 import 'package:provider/provider.dart';
 
 class PostCodeView extends StatefulWidget {
+  const PostCodeView({@required this.signUpBonus});
+
+  final bool signUpBonus;
+
   @override
   _PostCodeViewState createState() => _PostCodeViewState();
 }
@@ -157,7 +161,7 @@ class _PostCodeFormState extends State<PostCodeForm> {
         },
       );
 
-      Navigator.of(context).pushNamed(firstFreeDeliveryRoute);
+      Navigator.of(context).pushNamed(signUpBonusRoute);
     }
   }
 }
