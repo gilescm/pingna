@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:pingna/core/constants.dart';
-import 'package:pingna/resources/views/auth/onboarding/first_free_delivery_view.dart';
+import 'package:pingna/resources/views/auth/onboarding/sign_up_bonus_view.dart';
 import 'package:pingna/resources/views/auth/onboarding/post_code_view.dart';
 import 'package:pingna/resources/views/auth/onboarding/welcome_view.dart';
 import 'package:pingna/resources/views/home_view.dart';
@@ -26,9 +26,9 @@ class PingnaRouter {
       case welcomeRoute:
         return WelcomeView();
       case postcodeRoute:
-        return PostCodeView();
-      case firstFreeDeliveryRoute:
-        return FirstFreeDelivery();
+        return PostCodeView(signUpBonus: data.containsKey("from_home"));
+      case signUpBonusRoute:
+        return SignUpBonusView();
     }
 
     return Scaffold(

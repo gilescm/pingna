@@ -17,12 +17,12 @@ import 'package:pingna/resources/widgets/layouts/alert_dialog.dart';
 import 'package:pingna/resources/widgets/shapes/post_box_shape.dart';
 import 'package:provider/provider.dart';
 
-class FirstFreeDelivery extends StatefulWidget {
+class SignUpBonusView extends StatefulWidget {
   @override
-  _FirstFreeDeliveryState createState() => _FirstFreeDeliveryState();
+  _SignUpBonusViewState createState() => _SignUpBonusViewState();
 }
 
-class _FirstFreeDeliveryState extends State<FirstFreeDelivery> {
+class _SignUpBonusViewState extends State<SignUpBonusView> {
   @override
   Widget build(BuildContext context) {
     return Stack(
@@ -41,21 +41,21 @@ class _FirstFreeDeliveryState extends State<FirstFreeDelivery> {
             elevation: 0,
           ),
           backgroundColor: Colors.transparent,
-          body: FirstFreeDeliveryForm(),
+          body: SignUpBonusForm(),
         ),
       ],
     );
   }
 }
 
-class FirstFreeDeliveryForm extends StatefulWidget {
-  const FirstFreeDeliveryForm({Key key}) : super(key: key);
+class SignUpBonusForm extends StatefulWidget {
+  const SignUpBonusForm({Key key}) : super(key: key);
 
   @override
-  _FirstFreeDeliveryFormState createState() => _FirstFreeDeliveryFormState();
+  _SignUpBonusFormState createState() => _SignUpBonusFormState();
 }
 
-class _FirstFreeDeliveryFormState extends State<FirstFreeDeliveryForm> {
+class _SignUpBonusFormState extends State<SignUpBonusForm> {
   StreamSubscription _keyboardListener;
   FocusNode _emailNode, _firstNameNode;
   bool _showConfirm = true;
@@ -88,11 +88,11 @@ class _FirstFreeDeliveryFormState extends State<FirstFreeDeliveryForm> {
   Widget build(BuildContext context) {
     final langRef = 'onboarding.free_first';
     return ChangeNotifierProvider(
-      create: (context) => FirstFreeDeliveryModel(
+      create: (context) => SignUpBonusModel(
         context.read<User>(),
         context.read<Auth>(),
       ),
-      child: Consumer<FirstFreeDeliveryModel>(
+      child: Consumer<SignUpBonusModel>(
         builder: (context, model, _) => Form(
           key: _formKey,
           child: SingleChildScrollView(
@@ -205,7 +205,7 @@ class _FirstFreeDeliveryFormState extends State<FirstFreeDeliveryForm> {
     );
   }
 
-  void save(FirstFreeDeliveryModel model) async {
+  void save(SignUpBonusModel model) async {
     if (_formKey.currentState.validate()) {
       model.save();
       await showDialog(

@@ -5,11 +5,11 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:pingna/core/models/user.dart';
 import 'package:pingna/core/services/auth_service.dart';
 
-class FirstFreeDeliveryModel extends ChangeNotifier {
+class SignUpBonusModel extends ChangeNotifier {
   final User user;
   final Auth auth;
 
-  FirstFreeDeliveryModel(this.user, this.auth);
+  SignUpBonusModel(this.user, this.auth);
 
   String _email;
   String get email => _email;
