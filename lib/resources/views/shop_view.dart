@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
 
 import 'package:provider/provider.dart';
+import 'package:easy_localization/easy_localization.dart';
 
 import 'package:pingna/core/models/user.dart';
 import 'package:pingna/core/services/api_service.dart';
@@ -106,7 +107,7 @@ class _ShopViewBodyState extends State<ShopViewBody>
                   onChange: (size) => setState(() {
                     return _searchBarHeight = size.height;
                   }),
-                  child: SearchButton(),
+                  child: SearchButton(label: 'shop.search'.tr()),
                 ),
                 bottom: model.isInitialised
                     ? MeasureSize(
