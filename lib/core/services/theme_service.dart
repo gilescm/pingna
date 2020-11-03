@@ -80,7 +80,6 @@ class PingnaTheme extends ChangeNotifier {
       canvasColor: Colors.transparent,
       visualDensity: VisualDensity.adaptivePlatformDensity,
       buttonColor: primaryColor,
-      accentColor: primaryColor,
       textTheme: TextTheme(
         headline4: GoogleFonts.sourceSerifPro(
           color: charcoalColor,
@@ -106,6 +105,7 @@ class PingnaTheme extends ChangeNotifier {
         buttonColor: primaryColor,
       ),
       iconTheme: IconThemeData(color: primaryColor),
+      accentIconTheme: IconThemeData(color: charcoalColor),
       inputDecorationTheme: InputDecorationTheme(
         enabledBorder: UnderlineInputBorder(
           borderSide: BorderSide(
