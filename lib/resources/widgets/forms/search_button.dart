@@ -6,7 +6,10 @@ import 'package:pingna/resources/assets.dart';
 class SearchButton extends StatelessWidget {
   const SearchButton({
     Key key,
+    this.label,
   }) : super(key: key);
+
+  final String label;
 
   @override
   Widget build(BuildContext context) {
@@ -29,7 +32,7 @@ class SearchButton extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.only(left: 8.0),
               child: Text(
-                'home.search'.tr(),
+                label ?? 'home.search'.tr(),
                 style: Theme.of(context).textTheme.bodyText2,
               ),
             ),
