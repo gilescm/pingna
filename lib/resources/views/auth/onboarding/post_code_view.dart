@@ -107,10 +107,18 @@ class _PostCodeFormState extends State<PostCodeForm> {
                 ),
                 child: Column(
                   children: [
-                    Text(
-                      'onboarding.welcome'.tr(),
-                      style: Theme.of(context).textTheme.headline4,
-                      textAlign: TextAlign.center,
+                    Consumer<User>(
+                      builder: (context, user, _) {
+                        String prefix = "onboarding.welcome_prefix";
+                        if (user.postCode != null) {
+                          prefix = "onboarding.new_postcode_prefix";
+                        }
+                        return Text(
+                          prefix.tr() + 'onboarding.welcome'.tr(),
+                          style: Theme.of(context).textTheme.headline4,
+                          textAlign: TextAlign.center,
+                        );
+                      },
                     ),
                     Padding(
                       padding: const EdgeInsets.all(12.0),

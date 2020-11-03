@@ -14,7 +14,9 @@
     },
     "onboarding": {
         "get_started": "Get started",
-        "welcome": "Welcome 😊 Let's see if we deliver to you",
+        "welcome_prefix": "Welcome 😊 ",
+        "new_postcode_prefix": "Moved home? 🏠 ",
+        "welcome": "Let's see if we deliver to you",
         "postcode": "Enter your postcode",
         "postcode_required": "Please enter your postcode",
         "check_now": "Check now",
