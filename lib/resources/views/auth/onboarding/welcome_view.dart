@@ -57,7 +57,12 @@ class _WelcomeViewState extends State<WelcomeView> {
         ),
         PingnaSubmitButton(
           label: 'onboarding.get_started'.tr(),
-          onPressed: () => Navigator.of(context).pushNamed(postcodeRoute),
+          onPressed: () => Navigator.of(context).pushNamed(
+            postcodeRoute,
+            arguments: {
+              "show_sign_up_bonus": true,
+            },
+          ),
           style: PingnaButtonStyle.primary,
         ),
       ],

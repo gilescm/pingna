@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:pingna/core/constants.dart';
 import 'package:provider/provider.dart';
 
 import 'package:pingna/core/models/user.dart';
@@ -26,21 +27,7 @@ class HomeView extends StatelessWidget {
         ),
         actionsIconTheme: Theme.of(context).iconTheme,
         actions: [
-          GestureDetector(
-            child: Consumer<User>(
-              builder: (context, user, _) => Row(
-                children: [
-                  Icon(Icons.pin_drop_outlined),
-                  if (user.postCode != null)
-                    Text(
-                      user.postCode,
-                      style: TextStyle(color: Theme.of(context).primaryColor),
-                    ),
-                  Icon(Icons.keyboard_arrow_down),
-                ],
-              ),
-            ),
-          ),
+          PostcodePin(),
         ],
       ),
       drawer: PingnaDrawer(),
@@ -100,6 +87,30 @@ class HomeView extends StatelessWidget {
       ),
 
       // TODO: Use FAB as basket icon if one is active
+    );
+  }
+}
+
+class PostcodePin extends StatelessWidget {
+  const PostcodePin({Key key}) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return GestureDetector(
+      onTap: () => Navigator.pushNamed(context, postcodeRoute),
+      child: Consumer<User>(
+        builder: (context, user, _) => Row(
+          children: [
+            Icon(Icons.pin_drop_outlined),
+            if (user.postCode != null)
+              Text(
+                user.postCode,
+                style: TextStyle(color: Theme.of(context).primaryColor),
+              ),
+            Icon(Icons.keyboard_arrow_down),
+          ],
+        ),
+      ),
     );
   }
 }

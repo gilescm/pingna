@@ -26,7 +26,9 @@ class PingnaRouter {
       case welcomeRoute:
         return WelcomeView();
       case postcodeRoute:
-        return PostCodeView(signUpBonus: data.containsKey("from_home"));
+        return PostCodeView(
+          showSignUpBonus: data.containsKey("show_sign_up_bonus"),
+        );
       case signUpBonusRoute:
         return SignUpBonusView();
     }

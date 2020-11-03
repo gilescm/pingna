@@ -16,9 +16,9 @@ import 'package:pingna/resources/widgets/shapes/post_box_shape.dart';
 import 'package:provider/provider.dart';
 
 class PostCodeView extends StatefulWidget {
-  const PostCodeView({@required this.signUpBonus});
+  const PostCodeView({@required this.showSignUpBonus});
 
-  final bool signUpBonus;
+  final bool showSignUpBonus;
 
   @override
   _PostCodeViewState createState() => _PostCodeViewState();
@@ -43,7 +43,7 @@ class _PostCodeViewState extends State<PostCodeView> {
             elevation: 0,
           ),
           backgroundColor: Colors.transparent,
-          body: PostCodeForm(),
+          body: PostCodeForm(showSignUpBonus: widget.showSignUpBonus),
         ),
       ],
     );
@@ -51,7 +51,9 @@ class _PostCodeViewState extends State<PostCodeView> {
 }
 
 class PostCodeForm extends StatefulWidget {
-  const PostCodeForm({Key key}) : super(key: key);
+  const PostCodeForm({this.showSignUpBonus});
+
+  final bool showSignUpBonus;
 
   @override
   _PostCodeFormState createState() => _PostCodeFormState();
@@ -161,7 +163,11 @@ class _PostCodeFormState extends State<PostCodeForm> {
         },
       );
 
-      Navigator.of(context).pushNamed(signUpBonusRoute);
+      if (widget.showSignUpBonus) {
+        Navigator.of(context).pushNamed(signUpBonusRoute);
+      } else {
+        Navigator.of(context).pop();
+      }
     }
   }
 }
