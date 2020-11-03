@@ -40,7 +40,7 @@ class HomeView extends StatelessWidget {
                 delegate: SliverChildBuilderDelegate(
                   (context, index) {
                     final shopTypeItem = model.shopTypes[index];
-                    final shops = model.shopsBy(shopTypeItem.id);
+                    final shopItemModels = model.shopsBy(shopTypeItem.id);
                     return Column(
                       mainAxisSize: MainAxisSize.min,
                       crossAxisAlignment: CrossAxisAlignment.start,
@@ -60,15 +60,10 @@ class HomeView extends StatelessWidget {
                           height: 300,
                           child: ListView.builder(
                             scrollDirection: Axis.horizontal,
-                            itemCount: shops.length,
-                            itemBuilder: (context, shopIndex) {
-                              final shop = shops[shopIndex];
-                              final labels = model.shopLabelsFor(shop);
-                              return HomeShopItem(
-                                item: shop,
-                                labels: labels,
-                              );
-                            },
+                            itemCount: shopItemModels.length,
+                            itemBuilder: (context, shopIndex) => HomeShopItem(
+                              itemModel: shopItemModels[shopIndex],
+                            ),
                           ),
                         )
                       ],

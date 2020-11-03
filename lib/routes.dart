@@ -22,7 +22,7 @@ class PingnaRouter {
       case homeRoute:
         return HomeView();
       case shopRoute:
-        return ShopView(shop: data["shop"], labels: data["labels"]);
+        return ShopView(itemModel: data["item_model"]);
       case welcomeRoute:
         return WelcomeView();
       case postcodeRoute:

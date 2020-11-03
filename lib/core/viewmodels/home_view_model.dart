@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:pingna/core/models/shop/shop.dart';
+import 'package:pingna/core/models/shop/shop_item_model.dart';
 import 'package:pingna/core/models/shop/shop_label.dart';
 import 'package:pingna/core/models/shop/shop_type.dart';
 import 'package:pingna/core/models/user.dart';
@@ -28,15 +29,20 @@ class HomeViewModel extends ChangeNotifier {
   List<ShopLabel> _shopLabels;
   List<ShopLabel> get shopLabels => _shopLabels;
 
-  List<Shop> shopsBy(int shopTypeId) {
-    return shops.where((shop) => shop.shopTypeId == shopTypeId).toList();
+  List<ShopItemModel> shopsBy(int shopTypeId) {
+    final results = shops.where((shop) => shop.shopTypeId == shopTypeId);
+    return results.map<ShopItemModel>((shop) {
+      return ShopItemModel(
+        shop: shop,
+        labels: shopLabelsFor(shop),
+      );
+    }).toList();
   }
 
-  List<String> shopLabelsFor(Shop shop) {
-    return _shopLabels
-        .where((label) => shop.labelIds.contains(label.id))
-        .map((label) => label.name)
-        .toList();
+  List<ShopLabel> shopLabelsFor(Shop shop) {
+    return _shopLabels.where((label) {
+      return shop.labelIds.contains(label.id);
+    }).toList();
   }
 
   void init() async {

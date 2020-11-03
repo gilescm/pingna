@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:pingna/core/models/product/product.dart';
 import 'package:pingna/core/models/product/product_type.dart';
+import 'package:pingna/core/models/shop/shop_item_model.dart';
 import 'package:pingna/resources/views/product_list_view.dart';
 import 'package:pingna/resources/widgets/shapes/product_indicator.dart';
 import 'package:provider/provider.dart';
 
-import 'package:pingna/core/models/shop/shop.dart';
 import 'package:pingna/core/models/user.dart';
 import 'package:pingna/core/services/api_service.dart';
 import 'package:pingna/core/viewmodels/shop_view_model.dart';
@@ -14,25 +14,22 @@ import 'package:pingna/resources/widgets/layouts/shop_app_bar.dart';
 
 class ShopView extends StatelessWidget {
   const ShopView({
-    @required this.shop,
-    @required this.labels,
+    @required this.itemModel,
   });
 
-  final Shop shop;
-  final List<String> labels;
+  final ShopItemModel itemModel;
 
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
       create: (context) => ShopViewModel(
-        shop,
+        itemModel.shop,
         context.read<User>(),
         context.read<PingnaApi>(),
       )..init(),
       builder: (context, child) => ShopViewBody(
         model: context.watch<ShopViewModel>(),
-        shop: shop,
-        labels: labels,
+        itemModel: itemModel,
       ),
     );
   }
@@ -42,13 +39,11 @@ class ShopViewBody extends StatefulWidget {
   const ShopViewBody({
     Key key,
     @required this.model,
-    @required this.shop,
-    @required this.labels,
+    @required this.itemModel,
   }) : super(key: key);
 
   final ShopViewModel model;
-  final Shop shop;
-  final List<String> labels;
+  final ShopItemModel itemModel;
 
   @override
   _ShopViewBodyState createState() => _ShopViewBodyState();
@@ -82,8 +77,8 @@ class _ShopViewBodyState extends State<ShopViewBody>
                   context,
                 ),
                 sliver: ShopAppBar(
-                  shop: widget.shop,
-                  labels: widget.labels,
+                  shop: widget.itemModel.shop,
+                  labels: widget.itemModel.labelNames,
                   bottom: model.isInitialised ? TabBar(
                     isScrollable: true,
                     indicator: ProductTabIndicator(
